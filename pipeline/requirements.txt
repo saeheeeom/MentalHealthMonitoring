@@ -1,0 +1,14 @@
+# Core audio & DSP
+librosa>=0.10.0
+soundfile>=0.12.1
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Praat-based features (F0, formants, jitter, shimmer, HNR)
+praat-parselmouth>=0.4.3
+
+# Data handling & output
+pandas>=2.0.0
+
+# Progress bars
+tqdm>=4.66.0
