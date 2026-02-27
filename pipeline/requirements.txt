@@ -12,3 +12,12 @@ pandas>=2.0.0
 
 # Progress bars
 tqdm>=4.66.0
+
+# Dashboard
+streamlit>=1.32.0
+plotly>=5.18.0
+
+# HuggingFace upload
+datasets>=2.18.0
+huggingface_hub>=0.22.0
+python-dotenv>=1.0.0

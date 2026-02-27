@@ -37,6 +37,27 @@ log = logging.getLogger(__name__)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Helpers (module-level so multiprocessing can pickle them)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _get_pid(src: Path) -> str:
+    return src.name.replace("_P.tar.gz", "").replace("_P", "")
+
+
+def _process_source(args: tuple) -> dict:
+    """
+    Dispatch to the right worker based on mode.
+    args = (src, mode)  — must be picklable, so no closures.
+    """
+    src, mode = args
+    if mode == "archive":
+        return _process_archive(src)
+    else:
+        pid = _get_pid(src)
+        return extract_participant(src, participant_id=pid)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Worker: extract archive to temp dir, run feature extraction, return result
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -46,7 +67,7 @@ def _process_archive(archive_path: Path) -> dict:
     Extracts the archive to a temporary directory, extracts features,
     cleans up the temp dir, and returns the feature dict.
     """
-    pid = archive_path.stem.replace("_P", "")
+    pid = _get_pid(archive_path)
     try:
         with tempfile.TemporaryDirectory(prefix=f"edaic_{pid}_") as tmpdir:
             # Extract only the files we need (audio + transcript) to save I/O
@@ -102,7 +123,6 @@ def run_pipeline(
 
     # ── Collect all participant archives / directories ─────────────────────
     if extracted_dir and extracted_dir.exists():
-        # Use already-extracted directories
         sources = sorted(extracted_dir.glob("*_P"))
         mode = "dir"
         log.info("Found %d extracted participant directories.", len(sources))
@@ -124,11 +144,7 @@ def run_pipeline(
         completed_ids = set(existing["participant_id"].astype(str))
         log.info("Resuming — %d participants already processed.", len(completed_ids))
 
-    # Filter out completed
-    def get_pid(src: Path) -> str:
-        return src.name.replace("_P.tar.gz", "").replace("_P", "")
-
-    pending = [s for s in sources if get_pid(s) not in completed_ids]
+    pending = [s for s in sources if _get_pid(s) not in completed_ids]
     log.info("%d participants to process.", len(pending))
 
     if not pending:
@@ -138,15 +154,8 @@ def run_pipeline(
     # ── Run ────────────────────────────────────────────────────────────────
     all_results = []
 
-    def _process(src: Path) -> dict:
-        if mode == "archive":
-            return _process_archive(src)
-        else:
-            pid = get_pid(src)
-            return extract_participant(src, participant_id=pid)
-
     with ProcessPoolExecutor(max_workers=workers) as pool:
-        futures = {pool.submit(_process, src): src for src in pending}
+        futures = {pool.submit(_process_source, (src, mode)): src for src in pending}
         for future in tqdm(as_completed(futures), total=len(futures),
                            desc="Participants", unit="p"):
             try:
@@ -162,6 +171,11 @@ def run_pipeline(
 
     # Final save
     _save_results(all_results, output_path, completed_ids)
+
+    if not output_path.exists():
+        log.warning("No results were written — all participants failed.")
+        return pd.DataFrame()
+
     df = pd.read_csv(output_path)
     log.info("Pipeline complete — %d participants, %d features.",
              len(df), df.shape[1] - 1)
