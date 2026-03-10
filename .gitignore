@@ -1,0 +1,36 @@
+# ── Large data archives (download with data/edaic/raw/download.sh) ──────────
+data/edaic/raw/*.tar.gz
+data/daicwoz/raw/*.zip
+
+# ── Auto-generated / runtime files ──────────────────────────────────────────
+data/edaic/raw/download.log
+data/edaic/features/
+data/daicwoz/features/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+!feature_importance.ipynb
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
