@@ -180,54 +180,201 @@ AI_SUMMARY = (
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Real feature statistics (sourced from data/edaic/features/feature_stats.csv)
+# Each entry: (min, max, mean)  in the original acoustic feature units.
+# ─────────────────────────────────────────────────────────────────────────────
+
+FEAT_STATS: dict[str, tuple[float, float, float]] = {
+    # Pitch / F0
+    "f0_mean":                    (79.87,   239.67,  143.02),
+    "f0_std":                     (14.74,   161.77,   40.80),   # → pitch_variance
+    "f0_iqr":                     (6.45,    372.01,   29.18),
+    "pitch_instability":          (1.56,    104.02,    4.74),
+    # Speech rate
+    "speech_rate_wpm":            (18.82,   208.05,  132.14),
+    "speech_rate_syllables_per_sec": (0.007,  2.496,   0.943),
+    # Pause / temporal
+    "pause_dur_mean":             (2.51,     10.04,    5.06),   # → pause_duration (seconds)
+    "pause_dur_max":              (10.10,   263.10,   28.99),
+    "proportion_silence":         (0.146,    0.856,    0.491),
+    "utterance_count":            (42.0,    203.0,    94.61),
+    # Voice quality
+    "hnr_mean":                   (-3.33,   20.16,   10.60),    # high = clear voice; inverted → vocal_tension
+    "jitter_local":               (0.0061,   0.0531,  0.0162),
+    "shimmer_local":              (0.0304,   0.1816,  0.0815),
+    "breathiness":                (-11.35,   9.51,    0.08),
+    # Spectral
+    "spectral_flatness_mean":     (0.0021,   0.0471,  0.0193),  # → flat_affect
+    "intensity_std_db":           (6.30,    22.80,   11.49),    # → energy_variability
+    "spectral_centroid_mean":     (749.25, 1806.02, 1330.17),
+    "hammarberg_index":           (10.16,   37.05,   22.92),
+    # Formants
+    "f1_mean":                    (439.26,  867.80,  545.33),
+    "f2_mean":                    (1226.47, 2040.72, 1560.47),
+    "f3_mean":                    (2090.45, 3112.31, 2581.50),
+    # Fillers / fragments
+    "filled_pause_count":         (0.0,      3.0,     0.029),   # → filler_rate (raw count/session)
+    "fragmented_speech_ratio":    (0.0,      0.119,   0.022),
+}
+
+
+def _norm(value: float | np.ndarray, feat: str) -> float | np.ndarray:
+    """Normalise a raw acoustic value to 0–10 using the real feature range."""
+    lo, hi, _ = FEAT_STATS[feat]
+    return np.clip((value - lo) / (hi - lo) * 10, 0, 10)
+
+
+def _traj(
+    n: int,
+    start: float,
+    end: float,
+    noise_scale: float,
+    lo: float,
+    hi: float,
+    rng: np.random.Generator,
+) -> np.ndarray:
+    """
+    Generate a realistic improving trajectory from `start` to `end`
+    bounded by [lo, hi] with Gaussian noise of `noise_scale`.
+    """
+    trend = np.linspace(start, end, n) + rng.normal(0, noise_scale, n)
+    return np.clip(trend, lo, hi)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Data
 # ─────────────────────────────────────────────────────────────────────────────
 
 def load_data() -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Generate synthetic longitudinal patient data. Returns (daily_df, weekly_df)."""
-    np.random.seed(42)
-    n_days = 84  # 12 weeks
+    """
+    Generate synthetic longitudinal data grounded in real E-DAIC acoustic statistics.
+    Voice features use real units and real min/max bounds from feature_stats.csv.
+    Language markers and WHO-5 are synthesised (not in acoustic feature set).
+    Returns (daily_df, weekly_df).
+    """
+    rng    = np.random.default_rng(42)
+    n_days = 84   # 12 weeks of daily check-ins
     today  = datetime.today().replace(hour=0, minute=0, second=0, microsecond=0)
     dates  = [today - timedelta(days=n_days - i) for i in range(n_days)]
 
-    # Stress trend: 7.2 → 3.8 with noise (improving over time)
-    trend = np.linspace(7.2, 3.8, n_days) + np.random.randn(n_days) * 0.7
+    # ── Acoustic features — real units, real bounds ──────────────────────────
+    # Each trajectory: patient starts "elevated" (stressed) and improves.
+    # Noise = ~10 % of the real range.
+
+    # pitch_instability: high = more stressed → decreasing trend
+    pi_lo, pi_hi, pi_mu = FEAT_STATS["pitch_instability"]
+    pi_noise = (pi_hi - pi_lo) * 0.08
+    raw_pitch_instability = _traj(n_days, pi_mu * 1.9, pi_mu * 1.0, pi_noise, pi_lo, pi_hi, rng)
+
+    # f0_std (pitch variance): low = flat affect → increasing trend (improving)
+    pv_lo, pv_hi, pv_mu = FEAT_STATS["f0_std"]
+    pv_noise = (pv_hi - pv_lo) * 0.07
+    raw_pitch_variance = _traj(n_days, pv_mu * 0.65, pv_mu * 1.0, pv_noise, pv_lo, pv_hi, rng)
+
+    # speech_rate_wpm: low = depressed/slowed → increasing trend (improving); kept in wpm
+    sr_lo, sr_hi, sr_mu = FEAT_STATS["speech_rate_wpm"]
+    sr_noise = (sr_hi - sr_lo) * 0.06
+    raw_speech_rate = _traj(n_days, sr_mu * 0.78, sr_mu * 1.0, sr_noise, sr_lo, sr_hi, rng)
+
+    # pause_dur_mean: high = more pausing → decreasing trend; kept in seconds
+    pd_lo, pd_hi, pd_mu = FEAT_STATS["pause_dur_mean"]
+    pd_noise = (pd_hi - pd_lo) * 0.08
+    raw_pause_duration = _traj(n_days, pd_mu * 1.55, pd_mu * 1.0, pd_noise, pd_lo, pd_hi, rng)
+
+    # hnr_mean: high = clear voice (low tension) → increasing trend (improving); inverted for display
+    hn_lo, hn_hi, hn_mu = FEAT_STATS["hnr_mean"]
+    hn_noise = (hn_hi - hn_lo) * 0.07
+    raw_hnr = _traj(n_days, hn_mu * 0.65, hn_mu * 1.0, hn_noise, hn_lo, hn_hi, rng)
+
+    # spectral_flatness_mean: high = flat/monotone → decreasing trend
+    sf_lo, sf_hi, sf_mu = FEAT_STATS["spectral_flatness_mean"]
+    sf_noise = (sf_hi - sf_lo) * 0.08
+    raw_flat_affect = _traj(n_days, sf_mu * 1.7, sf_mu * 1.0, sf_noise, sf_lo, sf_hi, rng)
+
+    # breathiness: higher = more breathy → decreasing toward mean
+    br_lo, br_hi, br_mu = FEAT_STATS["breathiness"]
+    br_noise = (br_hi - br_lo) * 0.08
+    raw_breathiness = _traj(n_days, br_mu + (br_hi - br_mu) * 0.6, br_mu, br_noise, br_lo, br_hi, rng)
+
+    # intensity_std_db (energy variability): low = flat energy → increasing trend
+    ev_lo, ev_hi, ev_mu = FEAT_STATS["intensity_std_db"]
+    ev_noise = (ev_hi - ev_lo) * 0.07
+    raw_energy_var = _traj(n_days, ev_mu * 0.72, ev_mu * 1.0, ev_noise, ev_lo, ev_hi, rng)
+
+    # filled_pause_count: high = more fillers → decreasing trend
+    fp_lo, fp_hi, fp_mu = FEAT_STATS["filled_pause_count"]
+    fp_noise = (fp_hi - fp_lo) * 0.15
+    raw_filler = _traj(n_days, fp_mu + (fp_hi - fp_mu) * 0.5, fp_mu, fp_noise, fp_lo, fp_hi, rng)
+
+    # ── Normalise to 0–10 for display (except speech_rate and pause_duration) ─
+    pitch_instability_n = _norm(raw_pitch_instability, "pitch_instability")
+    pitch_variance_n    = _norm(raw_pitch_variance,    "f0_std")
+    vocal_tension_n     = 10 - _norm(raw_hnr, "hnr_mean")   # invert: low HNR = high tension
+    flat_affect_n       = _norm(raw_flat_affect,       "spectral_flatness_mean")
+    breathiness_n       = _norm(raw_breathiness,       "breathiness")
+    energy_var_n        = _norm(raw_energy_var,        "intensity_std_db")
+    filler_rate_n       = _norm(raw_filler,            "filled_pause_count")
+
+    # ── Stress indicator: composite of normalised acoustic features ──────────
+    # High pitch_instability + low speech_rate + high pause + low energy → high stress
+    stress = np.clip(
+        0.30 * pitch_instability_n
+        + 0.25 * (10 - _norm(raw_speech_rate, "speech_rate_wpm"))
+        + 0.25 * _norm(raw_pause_duration, "pause_dur_mean")
+        + 0.20 * vocal_tension_n
+        + rng.normal(0, 0.3, n_days),
+        0, 10,
+    )
+
+    # ── Language / semantic markers (not in acoustic features → synthesised) ─
+    # Correlated with stress but with independent noise.
+    lang_noise = 0.55
+    negativity_bias    = np.clip(stress * 0.85 + rng.normal(0, lang_noise, n_days), 0, 10)
+    hopelessness       = np.clip(stress * 0.75 + rng.normal(0, lang_noise, n_days), 0, 10)
+    rumination         = np.clip(stress * 0.90 + rng.normal(0, lang_noise, n_days), 0, 10)
+    self_blame         = np.clip(stress * 0.80 + rng.normal(0, lang_noise, n_days), 0, 10)
+    overgeneralization = np.clip(stress * 0.65 + rng.normal(0, lang_noise, n_days), 0, 10)
+    social_withdrawal  = np.clip(stress * 0.70 + rng.normal(0, lang_noise, n_days), 0, 10)
+    absolute_words     = np.clip((stress * 0.8 + rng.normal(0, 0.6, n_days)).astype(int), 0, 12)
 
     daily = pd.DataFrame({
         "date": dates,
-        # Core
-        "stress":             np.clip(trend, 0, 10),
-        # Voice / paralinguistic
-        "pitch_instability":  np.clip(trend * 0.9  + np.random.randn(n_days) * 0.5,  0, 10),
-        "pitch_variance":     np.clip(10 - trend   + np.random.randn(n_days) * 0.8,  0, 10),
-        "speech_rate":        np.clip(130 - trend * 3 + np.random.randn(n_days) * 8, 60, 200),
-        "pause_duration":     np.clip(trend * 0.28 + np.random.randn(n_days) * 0.12, 0, 4),
-        "filler_rate":        np.clip(trend * 0.7  + np.random.randn(n_days) * 0.35, 0, 8),
-        "vocal_tension":      np.clip(trend * 0.85 + np.random.randn(n_days) * 0.6,  0, 10),
-        "flat_affect":        np.clip(trend * 0.75 + np.random.randn(n_days) * 0.5,  0, 10),
-        "breathiness":        np.clip(trend * 0.6  + np.random.randn(n_days) * 0.45, 0, 10),
-        "energy_variability": np.clip(10 - trend * 0.8 + np.random.randn(n_days) * 0.7, 0, 10),
-        # Language / semantic
-        "negativity_bias":    np.clip(trend * 0.85 + np.random.randn(n_days) * 0.6,  0, 10),
-        "hopelessness":       np.clip(trend * 0.75 + np.random.randn(n_days) * 0.55, 0, 10),
-        "rumination":         np.clip(trend * 0.9  + np.random.randn(n_days) * 0.65, 0, 10),
-        "self_blame":         np.clip(trend * 0.8  + np.random.randn(n_days) * 0.5,  0, 10),
-        "overgeneralization": np.clip(trend * 0.65 + np.random.randn(n_days) * 0.4,  0, 10),
-        "social_withdrawal":  np.clip(trend * 0.7  + np.random.randn(n_days) * 0.55, 0, 10),
-        "absolute_words":     np.clip((trend * 0.8 + np.random.randn(n_days) * 0.6).astype(int), 0, 12),
+        # ── Stress (composite) ──
+        "stress":             stress,
+        # ── Voice: natural units ──
+        "speech_rate":        raw_speech_rate,    # wpm
+        "pause_duration":     raw_pause_duration, # seconds
+        # ── Voice: 0–10 normalised ──
+        "pitch_instability":  pitch_instability_n,
+        "pitch_variance":     pitch_variance_n,
+        "filler_rate":        filler_rate_n,
+        "vocal_tension":      vocal_tension_n,
+        "flat_affect":        flat_affect_n,
+        "breathiness":        breathiness_n,
+        "energy_variability": energy_var_n,
+        # ── Language: 0–10 ──
+        "negativity_bias":    negativity_bias,
+        "hopelessness":       hopelessness,
+        "rumination":         rumination,
+        "self_blame":         self_blame,
+        "overgeneralization": overgeneralization,
+        "social_withdrawal":  social_withdrawal,
+        "absolute_words":     absolute_words,
     })
 
+    # ── Weekly self-report scores (WHO-5 and functioning) ────────────────────
+    # These are not in the acoustic features; synthesised with realistic ranges.
     n_weeks    = 12
     week_dates = [today - timedelta(weeks=n_weeks - i) for i in range(n_weeks)]
-    who5_trend = np.linspace(10, 18, n_weeks) + np.random.randn(n_weeks) * 1.2
+    who5_trend = np.linspace(10, 18, n_weeks) + rng.normal(0, 1.2, n_weeks)
 
     weekly = pd.DataFrame({
         "date":                week_dates,
         "who5":                np.clip(who5_trend, 0, 25),
-        "stress_interference": np.clip(8.5 - np.linspace(0, 4, n_weeks) + np.random.randn(n_weeks) * 0.8, 0, 10),
-        "sleep_quality":       np.clip(4.2 + np.linspace(0, 3.5, n_weeks) + np.random.randn(n_weeks) * 0.7, 0, 10),
-        "social_connectedness":np.clip(3.5 + np.linspace(0, 4, n_weeks) + np.random.randn(n_weeks) * 0.9, 0, 10),
-        "desync_indicator":    np.clip(6.5 - np.linspace(0, 3, n_weeks) + np.random.randn(n_weeks) * 0.6, 0, 10),
+        "stress_interference": np.clip(8.5 - np.linspace(0, 4, n_weeks) + rng.normal(0, 0.8, n_weeks), 0, 10),
+        "sleep_quality":       np.clip(4.2 + np.linspace(0, 3.5, n_weeks) + rng.normal(0, 0.7, n_weeks), 0, 10),
+        "social_connectedness":np.clip(3.5 + np.linspace(0, 4.0, n_weeks) + rng.normal(0, 0.9, n_weeks), 0, 10),
+        "desync_indicator":    np.clip(6.5 - np.linspace(0, 3.0, n_weeks) + rng.normal(0, 0.6, n_weeks), 0, 10),
     })
 
     return daily, weekly
