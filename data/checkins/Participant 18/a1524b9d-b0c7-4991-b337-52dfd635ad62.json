@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 18",
+  "checkin_id": "a1524b9d-b0c7-4991-b337-52dfd635ad62",
+  "timestamp": "2026-04-26 22:12:13.952+00",
+  "self_reports": {
+    "step1_baseline": 2,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.25,
+    "S5_peak": 0.5,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": 0.25,
+  "recovery": 0.25,
+  "semantic_score": 0.35958598252489327,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.2530621737241745
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.19824866205453873
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.23820727318525314
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.18070393800735474
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.314,
+    "discordance_peak": -0.0725,
+    "discordance_postrelax": -0.2105,
+    "discordance_peak_abs": 0.0725,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5639896170394051,
+    "step3_stroop": 0.5791440599789086,
+    "step4_negative_event": 0.565892380930301,
+    "step7_positive_reading": 0.4604570616887478
+  },
+  "transcript_step2": "I think the highlight of my day was finishing up a project that I've been working on for  the whole semester because and this is the highlight because it's just me one step getting  one step closer to being fully relaxed for summer break.  Yeah, I think it was just cuddling in my bed.  Um, and just feeling relaxed. So yeah.  Um, I'm flying to Boston on Tuesday. I'm looking forward to that because I'll see my sister  graduate and it'll be a fun vacation.  Thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very",
+  "transcript_step4": "Um, we, for our Women in Data Science project, we learned that we placed forth, which was  not the position we were hoping to have, so we had some, uh, just conversations regarding  that, which meant to make me feel good, which they did, but I felt sad just because of  the circumstances, not too much honestly, so just continuing to learn, uses as a learning  lesson.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 176.3876,
+      "f0_std": 43.0372,
+      "pitch_instability": 6.2016,
+      "speech_rate_syllables_per_sec": 1.5173,
+      "intensity_mean_db": -27.705,
+      "hnr_mean": 12.8846,
+      "utterance_dur_total": 24.89,
+      "pause_dur_mean": 1.6147
+    },
+    "step3_stroop": {
+      "f0_mean": 173.3158,
+      "f0_std": 33.0134,
+      "pitch_instability": 5.0103,
+      "speech_rate_syllables_per_sec": 1.2681,
+      "intensity_mean_db": -22.0888,
+      "hnr_mean": 14.8134,
+      "utterance_dur_total": 15.83,
+      "pause_dur_mean": 0.6712
+    },
+    "step4_negative_event": {
+      "f0_mean": 170.9724,
+      "f0_std": 40.558,
+      "pitch_instability": 4.8593,
+      "speech_rate_syllables_per_sec": 1.4994,
+      "intensity_mean_db": -28.3825,
+      "hnr_mean": 13.2528,
+      "utterance_dur_total": 25.41,
+      "pause_dur_mean": 1.1316
+    },
+    "step7_positive_reading": {
+      "f0_mean": 171.3161,
+      "f0_std": 55.6397,
+      "pitch_instability": 8.1832,
+      "speech_rate_syllables_per_sec": 3.2081,
+      "intensity_mean_db": -27.7177,
+      "hnr_mean": 11.8535,
+      "utterance_dur_total": 41.26,
+      "pause_dur_mean": 0.5065
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777241532216-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777241532715-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777241533143-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777241533643-checkin-2-reading.wav"
+  }
+}

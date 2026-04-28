@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 02",
+  "checkin_id": "08e8a078-7e35-4f93-a172-af1f7fa1a5c6",
+  "timestamp": "2026-04-24 13:26:55.876+00",
+  "self_reports": {
+    "step1_baseline": 1,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 1
+  },
+  "stress_curve": {
+    "S1_baseline": 0.0,
+    "S5_peak": 0.375,
+    "S8_post_relax": 0.0
+  },
+  "reactivity": 0.375,
+  "recovery": 0.375,
+  "semantic_score": 0.3498335788763749,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.24387259781360626
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.18024586886167526
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.16418036818504333
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.16953469067811966
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.5573,
+    "discordance_peak": -0.1987,
+    "discordance_postrelax": -0.4697,
+    "discordance_peak_abs": 0.1987,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5573324922418538,
+    "step3_stroop": 0.5854280985427248,
+    "step4_negative_event": 0.5619885477723445,
+    "step7_positive_reading": 0.46974489527552554
+  },
+  "transcript_step2": "Today I didn't do much, but highlight of the day could be that after I started for my assignments and group projects, I met my friends, went out for a beer, and then we gathered in the house of my friend, and we discussed, we played board games, so that was the highlight of the day.  It was meaningful because we, I always enjoy seeing my friends and makes me happy, makes my day better and makes me feel better and more energetic.   Yeah, it was the time that I saw my friends and the whole time that we were together I was happy the whole time, so that was one.",
+  "transcript_step4": "I was discussing with a friend of mine and I made a joke that in my mind was a funny joke  but it was a little bit bad for him and offending but I didn't thought it liked this so I made  that joke and instead of him laughing as I expected he took it seriously and he was offended  so that was a conversation that ended being bad and didn't go well.  First of all, I should not make that joke, I should imagine that that could be offending  for him or after that I should say sorry, I didn't mean it, that could be better.  I don't know what to do, but I'm going to have to go back to my room to see if I can get out of here.  Thank you very much for your time, and I'll see you in the next video, bye-bye, bye-bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye,",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 123.56,
+      "f0_std": 39.0646,
+      "pitch_instability": 3.2891,
+      "speech_rate_syllables_per_sec": 2.2585,
+      "intensity_mean_db": -28.8734,
+      "hnr_mean": 13.1953,
+      "utterance_dur_total": 34.01,
+      "pause_dur_mean": 0.9545
+    },
+    "step3_stroop": {
+      "f0_mean": 114.7752,
+      "f0_std": 19.7596,
+      "pitch_instability": 2.8263,
+      "speech_rate_syllables_per_sec": 1.0891,
+      "intensity_mean_db": -24.4956,
+      "hnr_mean": 10.6445,
+      "utterance_dur_total": 11.0,
+      "pause_dur_mean": 0.8536
+    },
+    "step4_negative_event": {
+      "f0_mean": 116.6282,
+      "f0_std": 34.3615,
+      "pitch_instability": 3.5536,
+      "speech_rate_syllables_per_sec": 1.8292,
+      "intensity_mean_db": -28.7198,
+      "hnr_mean": 12.1994,
+      "utterance_dur_total": 33.02,
+      "pause_dur_mean": 0.7154
+    },
+    "step7_positive_reading": {
+      "f0_mean": 117.1945,
+      "f0_std": 36.324,
+      "pitch_instability": 3.1631,
+      "speech_rate_syllables_per_sec": 2.8527,
+      "intensity_mean_db": -29.948,
+      "hnr_mean": 11.9374,
+      "utterance_dur_total": 47.01,
+      "pause_dur_mean": 0.4358
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777037205759-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777037209235-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777037212228-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777037215694-checkin-2-reading.wav"
+  }
+}

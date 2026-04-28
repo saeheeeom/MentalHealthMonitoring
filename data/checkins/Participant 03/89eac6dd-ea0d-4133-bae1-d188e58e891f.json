@@ -1,0 +1,97 @@
+{
+  "participant_id": "Participant 03",
+  "checkin_id": "89eac6dd-ea0d-4133-bae1-d188e58e891f",
+  "timestamp": "2026-04-21 21:27:59.696+00",
+  "self_reports": {
+    "step1_baseline": 5,
+    "step5a_after_stroop": 5,
+    "step5b_after_negative": 5,
+    "step8_post_relax": 5
+  },
+  "stress_curve": {
+    "S1_baseline": 1.0,
+    "S5_peak": 1.0,
+    "S8_post_relax": 1.0
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.34972885052363073,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.13074352592229843
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.11641708016395569
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.15160636603832245
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.15227262675762177
+    ]
+  ],
+  "risk_score": 0.3353,
+  "risk_tier": "Low",
+  "discordance": {
+    "discordance_baseline": 0.415,
+    "discordance_peak": 0.4235,
+    "discordance_postrelax": 0.4927,
+    "discordance_peak_abs": 0.4235,
+    "discordance_flag": true,
+    "discordance_direction": "over"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.584971584712751,
+    "step3_stroop": 0.5812478523273304,
+    "step4_negative_event": 0.5716566940548973,
+    "step7_positive_reading": 0.5072888729210249
+  },
+  "transcript_step2": "Yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, Thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see you in the next video, thank you very much for your time, and I'll see",
+  "transcript_step4": "I'm a lot of things but I'm a bit worried about my internship, a bit of Google or not, and  it can go either way, I'm not sure.  It can be bad because if I don't get a PPO I'll have to work hard during the placement season.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "speech_rate_syllables_per_sec": 0.0,
+      "intensity_mean_db": -102.1292,
+      "hnr_mean": -0.4901
+    },
+    "step3_stroop": {
+      "f0_mean": 113.7096,
+      "f0_std": 49.2185,
+      "pitch_instability": 6.7058,
+      "speech_rate_syllables_per_sec": 0.9804,
+      "intensity_mean_db": -24.6727,
+      "hnr_mean": 9.6403,
+      "utterance_dur_total": 11.19,
+      "pause_dur_mean": 1.8241
+    },
+    "step4_negative_event": {
+      "f0_mean": 114.5868,
+      "f0_std": 49.4454,
+      "pitch_instability": 5.2938,
+      "speech_rate_syllables_per_sec": 1.1577,
+      "intensity_mean_db": -24.2126,
+      "hnr_mean": 11.6022,
+      "utterance_dur_total": 15.83,
+      "pause_dur_mean": 1.2444
+    },
+    "step7_positive_reading": {
+      "speech_rate_syllables_per_sec": 0.0,
+      "intensity_mean_db": -101.9218,
+      "hnr_mean": -0.1212
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776806875652-checkin-3-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776806876702-checkin-3-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776806877319-checkin-3-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776806877910-checkin-3-reading.wav"
+  }
+}

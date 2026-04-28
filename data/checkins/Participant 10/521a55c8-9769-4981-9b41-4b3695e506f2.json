@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 10",
+  "checkin_id": "521a55c8-9769-4981-9b41-4b3695e506f2",
+  "timestamp": "2026-04-14 18:07:25.622+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 3
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.5,
+    "S8_post_relax": 0.5
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.35400336577246583,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.1192866787314415
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.09737402200698853
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.1577264592051506
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.13482818007469177
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.0727,
+    "discordance_peak": -0.0717,
+    "discordance_postrelax": 0.0368,
+    "discordance_peak_abs": 0.0717,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5726611918285512,
+    "step3_stroop": 0.5711797343389817,
+    "step4_negative_event": 0.572261789224857,
+    "step7_positive_reading": 0.46324229738983463
+  },
+  "transcript_step2": "Check into baseline test.  I don't know if I'm going to be able to do it, but I'm not going to be able to do it, I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do and of baseline check-in-two.",
+  "transcript_step4": "There's a second two in that line.  Yeah, I just need to do a little bit of research.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 107.0778,
+      "f0_std": 60.9985,
+      "pitch_instability": 9.9549,
+      "speech_rate_syllables_per_sec": 0.7156,
+      "intensity_mean_db": -28.4133,
+      "hnr_mean": 8.7919,
+      "utterance_dur_total": 6.48,
+      "pause_dur_mean": 5.4309
+    },
+    "step3_stroop": {
+      "f0_mean": 119.5895,
+      "f0_std": 54.7904,
+      "pitch_instability": 8.3902,
+      "speech_rate_syllables_per_sec": 1.6889,
+      "intensity_mean_db": -32.5737,
+      "hnr_mean": 7.0639,
+      "utterance_dur_total": 10.85,
+      "pause_dur_mean": 1.4079
+    },
+    "step4_negative_event": {
+      "f0_mean": 140.9486,
+      "f0_std": 72.4363,
+      "pitch_instability": 10.7411,
+      "speech_rate_syllables_per_sec": 0.6953,
+      "intensity_mean_db": -29.3566,
+      "hnr_mean": 7.5085,
+      "utterance_dur_total": 4.78,
+      "pause_dur_mean": 2.5709
+    },
+    "step7_positive_reading": {
+      "f0_mean": 103.2202,
+      "f0_std": 62.11,
+      "pitch_instability": 9.2065,
+      "speech_rate_syllables_per_sec": 3.7736,
+      "intensity_mean_db": -26.5675,
+      "hnr_mean": 7.6723,
+      "utterance_dur_total": 2.42,
+      "pause_dur_mean": 0.26
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776190050695-onlinetest-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776190050902-onlinetest-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776190051098-onlinetest-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776190051307-onlinetest-checkin-2-reading.wav"
+  }
+}

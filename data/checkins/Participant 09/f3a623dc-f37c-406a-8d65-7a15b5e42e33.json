@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 09",
+  "checkin_id": "f3a623dc-f37c-406a-8d65-7a15b5e42e33",
+  "timestamp": "2026-04-16 18:20:41.479+00",
+  "self_reports": {
+    "step1_baseline": 2,
+    "step5a_after_stroop": 2,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.25,
+    "S5_peak": 0.375,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": 0.125,
+  "recovery": 0.125,
+  "semantic_score": 0.3584929541063805,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.16146987676620483
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.14311634749174118
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.20896294713020325
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.16330336779356003
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.3151,
+    "discordance_peak": -0.2086,
+    "discordance_postrelax": -0.2238,
+    "discordance_peak_abs": 0.2086,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5650613640016824,
+    "step3_stroop": 0.5890125464289377,
+    "step4_negative_event": 0.578113962661659,
+    "step7_positive_reading": 0.47382549290723797
+  },
+  "transcript_step2": "The highlight of my day was that I had a good workout, after that I had been doing all  my day-to-day chores, catching up on emails and all that stuff so it's been a pretty  chilled out day, relaxed day. And honestly nothing has happened yet. I got free pizza looking  forward to going for free coffee that we get on first days. And there's free food in the night as well.   or on a pretty decent day.",
+  "transcript_step4": "I have said 20 hours of work per person.  completing them are figuring it out. It is not a very difficult project but just finishing  get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it, get it,",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 152.1083,
+      "f0_std": 24.937,
+      "pitch_instability": 3.7747,
+      "speech_rate_syllables_per_sec": 1.7726,
+      "intensity_mean_db": -28.3385,
+      "hnr_mean": 10.1282,
+      "utterance_dur_total": 22.8,
+      "pause_dur_mean": 0.8457
+    },
+    "step3_stroop": {
+      "f0_mean": 154.4856,
+      "f0_std": 8.4676,
+      "pitch_instability": 2.393,
+      "speech_rate_syllables_per_sec": 0.8444,
+      "intensity_mean_db": -25.4698,
+      "hnr_mean": 10.4812,
+      "utterance_dur_total": 9.96,
+      "pause_dur_mean": 0.9579
+    },
+    "step4_negative_event": {
+      "f0_mean": 156.5895,
+      "f0_std": 17.1104,
+      "pitch_instability": 3.2814,
+      "speech_rate_syllables_per_sec": 0.9804,
+      "intensity_mean_db": -28.8169,
+      "hnr_mean": 9.7014,
+      "utterance_dur_total": 9.41,
+      "pause_dur_mean": 3.063
+    },
+    "step7_positive_reading": {
+      "f0_mean": 153.4648,
+      "f0_std": 25.6721,
+      "pitch_instability": 3.6702,
+      "speech_rate_syllables_per_sec": 2.497,
+      "intensity_mean_db": -28.3706,
+      "hnr_mean": 9.5147,
+      "utterance_dur_total": 43.89,
+      "pause_dur_mean": 0.6657
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776363639658-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776363640341-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776363640817-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776363641305-checkin-1-reading.wav"
+  }
+}

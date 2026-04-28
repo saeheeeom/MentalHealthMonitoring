@@ -1,0 +1,105 @@
+{
+  "participant_id": "Participant 14",
+  "checkin_id": "353b3522-d796-427e-8521-0a5901f94431",
+  "timestamp": "2026-04-21 02:22:05.052+00",
+  "self_reports": {
+    "step1_baseline": 2,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.25,
+    "S5_peak": 0.375,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": 0.125,
+  "recovery": 0.125,
+  "semantic_score": 0.3541864355198211,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.20866672694683075
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.17253990471363068
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.1656467653810978
+    ],
+    [
+      "avg_self_blame_score",
+      0.20344550162553787
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.3312,
+    "discordance_peak": -0.1962,
+    "discordance_postrelax": -0.227,
+    "discordance_peak_abs": 0.1962,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5811682828662439,
+    "step3_stroop": 0.5806139539196982,
+    "step4_negative_event": 0.5618176491129254,
+    "step7_positive_reading": 0.4770128922298784
+  },
+  "transcript_step2": "Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much for joining us today, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very, thank you very much, thank you very, thank you very much, thank you very much, thank you very, thank you very much, thank you very much, thank you very, thank you very much, thank you very, thank you very, thank you very, thank you",
+  "transcript_step4": "Yeah, I don't have a specific conversation that went poorly, but over the last few days  I noticed a pattern in how I communicate, so I tend to speak quickly, I tend to speak  a lot and just sometimes leads me to say things without like properly or fully thinking  and through and because of that I would have, I may have an unintentionally come across  like the wrong way or offended people without meaning to.  So recognizing this has made me more aware of the need  to like properly slow down and be more mindful than I speak to.  Yeah, so in general, I just need to properly think  through things before saying them.  I would have to respond immediately.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 76.8608,
+      "f0_std": 10.0114,
+      "pitch_instability": 7.0249,
+      "speech_rate_syllables_per_sec": 0.0198,
+      "intensity_mean_db": -179.3824,
+      "hnr_mean": 7.8992
+    },
+    "step3_stroop": {
+      "f0_mean": 101.879,
+      "f0_std": 57.5794,
+      "pitch_instability": 5.1946,
+      "speech_rate_syllables_per_sec": 1.1348,
+      "intensity_mean_db": -20.5775,
+      "hnr_mean": 9.2543,
+      "utterance_dur_total": 14.91,
+      "pause_dur_mean": 0.7068
+    },
+    "step4_negative_event": {
+      "f0_mean": 107.1035,
+      "f0_std": 55.7032,
+      "pitch_instability": 5.8417,
+      "speech_rate_syllables_per_sec": 1.5228,
+      "intensity_mean_db": -19.3027,
+      "hnr_mean": 9.1964,
+      "utterance_dur_total": 34.57,
+      "pause_dur_mean": 1.3053
+    },
+    "step7_positive_reading": {
+      "f0_mean": 103.1444,
+      "f0_std": 52.661,
+      "pitch_instability": 5.3298,
+      "speech_rate_syllables_per_sec": 1.8765,
+      "intensity_mean_db": -20.6141,
+      "hnr_mean": 9.4755,
+      "utterance_dur_total": 49.1,
+      "pause_dur_mean": 0.6791
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776738123666-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776738124018-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776738124409-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776738124803-checkin-2-reading.wav"
+  }
+}

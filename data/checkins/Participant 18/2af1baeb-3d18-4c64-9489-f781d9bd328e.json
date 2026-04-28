@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 18",
+  "checkin_id": "2af1baeb-3d18-4c64-9489-f781d9bd328e",
+  "timestamp": "2026-04-22 18:21:04.613+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.375,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": -0.125,
+  "recovery": 0.125,
+  "semantic_score": 0.33797395581689965,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.1984449326992035
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.14227737113833427
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.1704651191830635
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.11348026990890503
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.064,
+    "discordance_peak": -0.1995,
+    "discordance_postrelax": -0.2221,
+    "discordance_peak_abs": 0.1995,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.564046551830841,
+    "step3_stroop": 0.5813711448397343,
+    "step4_negative_event": 0.5675667951389347,
+    "step7_positive_reading": 0.47213371061521053
+  },
+  "transcript_step2": "Um, I think the highlight of my day was probably getting done with my non-parametric stats exam.  Um, and yeah, it's a nice sunny day, so pretty happy about both of those things.  Yes, I was joking around with one of my friends and, uh, I think that made me  feel really happy I think I'm currently looking forward to just having a bit of a break  but before my internship starts and moving back so just having fun around Atlanta and relaxing   and spending time with my friends.",
+  "transcript_step4": "I have a DVA project recording due on Friday and the report is also due, so I have to do both of those things.  For the report, I just need to review the report and then for the video I have to actually record the video.  video and read off of a script that I made.  I don't find them too stressful but it's just that I need to sit down and spend time and  do the work so I can't exactly relax fully before I do them.  Thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 165.7654,
+      "f0_std": 47.2748,
+      "pitch_instability": 5.3433,
+      "speech_rate_syllables_per_sec": 1.504,
+      "intensity_mean_db": -27.7954,
+      "hnr_mean": 13.4109,
+      "utterance_dur_total": 29.61,
+      "pause_dur_mean": 1.735
+    },
+    "step3_stroop": {
+      "f0_mean": 168.8969,
+      "f0_std": 27.4543,
+      "pitch_instability": 3.8457,
+      "speech_rate_syllables_per_sec": 1.2048,
+      "intensity_mean_db": -23.9115,
+      "hnr_mean": 15.3495,
+      "utterance_dur_total": 16.11,
+      "pause_dur_mean": 0.7659
+    },
+    "step4_negative_event": {
+      "f0_mean": 175.3466,
+      "f0_std": 53.2429,
+      "pitch_instability": 5.1118,
+      "speech_rate_syllables_per_sec": 1.2889,
+      "intensity_mean_db": -27.4302,
+      "hnr_mean": 15.0396,
+      "utterance_dur_total": 26.56,
+      "pause_dur_mean": 1.63
+    },
+    "step7_positive_reading": {
+      "f0_mean": 180.0808,
+      "f0_std": 42.4015,
+      "pitch_instability": 4.9877,
+      "speech_rate_syllables_per_sec": 2.4141,
+      "intensity_mean_db": -28.5974,
+      "hnr_mean": 14.5764,
+      "utterance_dur_total": 46.86,
+      "pause_dur_mean": 0.5442
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776882062503-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776882063020-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776882063576-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776882064312-checkin-1-reading.wav"
+  }
+}

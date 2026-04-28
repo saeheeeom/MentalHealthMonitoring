@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 13",
+  "checkin_id": "950d2d13-7833-4c02-8bd2-1bc91ee99571",
+  "timestamp": "2026-04-16 14:21:05.648+00",
+  "self_reports": {
+    "step1_baseline": 4,
+    "step5a_after_stroop": 2,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.75,
+    "S5_peak": 0.25,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": -0.5,
+  "recovery": 0.0,
+  "semantic_score": 0.32325881866983963,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.1640160083770752
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.2534095048904419
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.1597002036869526
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.11345357820391655
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": 0.1816,
+    "discordance_peak": -0.3193,
+    "discordance_postrelax": -0.2142,
+    "discordance_peak_abs": 0.3193,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5683590300361908,
+    "step3_stroop": 0.5858494251430716,
+    "step4_negative_event": 0.5528339093867922,
+    "step7_positive_reading": 0.46419629245566324
+  },
+  "transcript_step2": "The highlight of my day was being able to talk to my family back home, it was nice to  hear them.  Oh, not really, but I do normally smile off your go and I will be my friends, which would  be in a few minutes, or a few hours from now.  I'm currently looking forward to hanging out with my friends, and it matters to me because  it's fun meeting them and being around them.",
+  "transcript_step4": "I have a meeting on Friday which I need to get some work done for. I set up the program  to run, but I need to go and compile the results for it, which I future day, so I can...  The work required is for me to go through the entire results and compile them and see  if I can get some kind of observable insight from them and present it into our meeting.  I need to get the world done by as soon as possible because I don't want to be staying  up at night trying to fix them.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 93.9527,
+      "f0_std": 40.3802,
+      "pitch_instability": 3.2896,
+      "speech_rate_syllables_per_sec": 1.5223,
+      "intensity_mean_db": -27.0735,
+      "hnr_mean": 6.2974,
+      "utterance_dur_total": 23.32,
+      "pause_dur_mean": 1.3271
+    },
+    "step3_stroop": {
+      "f0_mean": 106.8971,
+      "f0_std": 22.007,
+      "pitch_instability": 2.2958,
+      "speech_rate_syllables_per_sec": 1.0362,
+      "intensity_mean_db": -25.6536,
+      "hnr_mean": 8.1935,
+      "utterance_dur_total": 14.32,
+      "pause_dur_mean": 0.6849
+    },
+    "step4_negative_event": {
+      "f0_mean": 108.2481,
+      "f0_std": 70.2174,
+      "pitch_instability": 7.2206,
+      "speech_rate_syllables_per_sec": 2.2877,
+      "intensity_mean_db": -27.9102,
+      "hnr_mean": 5.4689,
+      "utterance_dur_total": 29.44,
+      "pause_dur_mean": 1.1515
+    },
+    "step7_positive_reading": {
+      "f0_mean": 102.1707,
+      "f0_std": 47.515,
+      "pitch_instability": 5.9704,
+      "speech_rate_syllables_per_sec": 3.1624,
+      "intensity_mean_db": -29.2732,
+      "hnr_mean": 5.1946,
+      "utterance_dur_total": 40.55,
+      "pause_dur_mean": 0.4222
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776349262163-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776349262747-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776349263325-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776349263922-checkin-1-reading.wav"
+  }
+}

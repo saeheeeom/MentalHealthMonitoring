@@ -1,0 +1,100 @@
+{
+  "participant_id": "Participant 03",
+  "checkin_id": "b9f12719-ab28-4768-9594-469aa8de29ef",
+  "timestamp": "2026-04-21 20:53:24.263+00",
+  "self_reports": {
+    "step1_baseline": 5,
+    "step5a_after_stroop": 5,
+    "step5b_after_negative": 5,
+    "step8_post_relax": 5
+  },
+  "stress_curve": {
+    "S1_baseline": 1.0,
+    "S5_peak": 1.0,
+    "S8_post_relax": 1.0
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.3541642150686432,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.11656608805060387
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.1916934847831726
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.2405136674642563
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.1353241316974163
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": 0.4205,
+    "discordance_peak": 0.4176,
+    "discordance_postrelax": 0.4927,
+    "discordance_peak_abs": 0.4176,
+    "discordance_flag": true,
+    "discordance_direction": "over"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5795122883913323,
+    "step3_stroop": 0.5936859129308478,
+    "step4_negative_event": 0.5710472553210437,
+    "step7_positive_reading": 0.5072888729210249
+  },
+  "transcript_step2": "Okay.  Okay.  Okay.  Okay.  Okay.  This is my summer home, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is this, what is",
+  "transcript_step4": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 214.8987,
+      "f0_std": 52.7146,
+      "pitch_instability": 10.1825,
+      "speech_rate_syllables_per_sec": 0.2153,
+      "intensity_mean_db": -34.3896,
+      "hnr_mean": 5.0692,
+      "utterance_dur_total": 0.44,
+      "pause_dur_mean": 0.0
+    },
+    "step3_stroop": {
+      "f0_mean": 172.8146,
+      "f0_std": 61.0187,
+      "pitch_instability": 7.1848,
+      "speech_rate_syllables_per_sec": 0.0668,
+      "intensity_mean_db": -35.0826,
+      "hnr_mean": 2.6601,
+      "utterance_dur_total": 0.11,
+      "pause_dur_mean": 0.0
+    },
+    "step4_negative_event": {
+      "f0_mean": 204.4132,
+      "f0_std": 34.996,
+      "pitch_instability": 13.401,
+      "speech_rate_syllables_per_sec": 0.1423,
+      "intensity_mean_db": -94.6771,
+      "hnr_mean": 5.0262
+    },
+    "step7_positive_reading": {
+      "speech_rate_syllables_per_sec": 0.0,
+      "intensity_mean_db": -82.7496,
+      "hnr_mean": 6.2245
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776804801254-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776804801832-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776804802340-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776804802575-checkin-1-reading.wav"
+  }
+}

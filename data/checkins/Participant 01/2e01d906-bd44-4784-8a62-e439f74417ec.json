@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 01",
+  "checkin_id": "2e01d906-bd44-4784-8a62-e439f74417ec",
+  "timestamp": "2026-04-15 20:27:47.577+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 3
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.5,
+    "S8_post_relax": 0.5
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.36736570782959455,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.17647871375083923
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.1454470418393612
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.2053002417087555
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.1713375225663185
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.0502,
+    "discordance_peak": -0.0392,
+    "discordance_postrelax": 0.0338,
+    "discordance_peak_abs": 0.0392,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5502052225446092,
+    "step3_stroop": 0.5731335811603059,
+    "step4_negative_event": 0.5053376985061204,
+    "step7_positive_reading": 0.46623328640502126
+  },
+  "transcript_step2": "I'm going to put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it in the fridge and put it I don't know if I'm going to be able to do it, but I'm not going to be able to do it.  I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know",
+  "transcript_step4": "I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to do it, but I don't know if I'm going to be able to I don't know if I'm going to be able to do it, but I'm not going to be able to do it, I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do it, but I'm not going to be able to do I don't know if I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it, but I'm going to be able to do it,",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 160.4696,
+      "f0_std": 74.9828,
+      "pitch_instability": 20.5266,
+      "speech_rate_syllables_per_sec": 1.2229,
+      "intensity_mean_db": -33.6291,
+      "hnr_mean": 5.2726,
+      "utterance_dur_total": 15.05,
+      "pause_dur_mean": 1.8185
+    },
+    "step3_stroop": {
+      "f0_mean": 129.5559,
+      "f0_std": 51.2219,
+      "pitch_instability": 9.4055,
+      "speech_rate_syllables_per_sec": 1.2889,
+      "intensity_mean_db": -33.0761,
+      "hnr_mean": 2.4491,
+      "utterance_dur_total": 14.86,
+      "pause_dur_mean": 0.929
+    },
+    "step4_negative_event": {
+      "f0_mean": 125.9584,
+      "f0_std": 44.528,
+      "pitch_instability": 10.8587,
+      "speech_rate_syllables_per_sec": 6.5117,
+      "intensity_mean_db": -34.6362,
+      "hnr_mean": 4.3548,
+      "utterance_dur_total": 13.57,
+      "pause_dur_mean": 1.617
+    },
+    "step7_positive_reading": {
+      "f0_mean": 164.1834,
+      "f0_std": 79.5832,
+      "pitch_instability": 21.5832,
+      "speech_rate_syllables_per_sec": 1.257,
+      "intensity_mean_db": -34.481,
+      "hnr_mean": 3.2865,
+      "utterance_dur_total": 31.62,
+      "pause_dur_mean": 1.4971
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776284869409-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776284869860-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776284870432-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776284871482-checkin-2-reading.wav"
+  }
+}

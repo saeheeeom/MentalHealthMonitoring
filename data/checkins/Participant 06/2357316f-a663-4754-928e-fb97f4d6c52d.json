@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 06",
+  "checkin_id": "2357316f-a663-4754-928e-fb97f4d6c52d",
+  "timestamp": "2026-04-16 20:09:51.135+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 2,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 1
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.25,
+    "S8_post_relax": 0.0
+  },
+  "reactivity": -0.25,
+  "recovery": 0.25,
+  "semantic_score": 0.35154575387843773,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.14702560752630234
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.17116841673851013
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.21939074993133545
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.14302297681570053
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.0611,
+    "discordance_peak": -0.3182,
+    "discordance_postrelax": -0.4698,
+    "discordance_peak_abs": 0.3182,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5611395129407655,
+    "step3_stroop": 0.580707927340986,
+    "step4_negative_event": 0.5557760998196457,
+    "step7_positive_reading": 0.4697698598034716
+  },
+  "transcript_step2": "I think a highlight of my day is taking a site some time to make my own lunch. So I had  some chicken with potatoes and vegetables and marinating the chicken, putting in the  oven, doing the potatoes the way I like it, adding seasoning and setting a site time  to have a mindful and good lunch.  Was there a moment today that genuinely made you smile or feel good?  Yes, it was biting into my food and enjoying the taste of it.  Yes, so that was something that I really enjoyed today.  It's taking time aside for my meal.",
+  "transcript_step4": "So I have a Bayesian class which has a few assignments due. I am working on a  project. The slides are due on Sunday. Presentation is on Monday and after that I  have a homework that's due on next Friday for the same class and I'm still a  little behind on lectures. I have an exam coming up soon as well for Bayesian.  So I need to make sure that I get my project, my homework and my work up to date to prepare myself well for the exam.  What is the work required to finish them?  I just need to sit down and put some thought into making the slides, the report, things like that.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 117.0552,
+      "f0_std": 39.4088,
+      "pitch_instability": 3.2748,
+      "speech_rate_syllables_per_sec": 2.079,
+      "intensity_mean_db": -28.6893,
+      "hnr_mean": 7.662,
+      "utterance_dur_total": 27.32,
+      "pause_dur_mean": 0.6586
+    },
+    "step3_stroop": {
+      "f0_mean": 127.9459,
+      "f0_std": 26.0601,
+      "pitch_instability": 2.2772,
+      "speech_rate_syllables_per_sec": 1.3913,
+      "intensity_mean_db": -26.5043,
+      "hnr_mean": 13.6126,
+      "utterance_dur_total": 18.91,
+      "pause_dur_mean": 0.6472
+    },
+    "step4_negative_event": {
+      "f0_mean": 119.8664,
+      "f0_std": 46.1742,
+      "pitch_instability": 4.0076,
+      "speech_rate_syllables_per_sec": 2.4192,
+      "intensity_mean_db": -28.9248,
+      "hnr_mean": 7.4681,
+      "utterance_dur_total": 29.51,
+      "pause_dur_mean": 0.5325
+    },
+    "step7_positive_reading": {
+      "f0_mean": 123.8907,
+      "f0_std": 41.7374,
+      "pitch_instability": 4.7532,
+      "speech_rate_syllables_per_sec": 2.6968,
+      "intensity_mean_db": -29.2445,
+      "hnr_mean": 8.2464,
+      "utterance_dur_total": 45.21,
+      "pause_dur_mean": 0.5754
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776370190368-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776370191020-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776370191679-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776370192309-checkin-1-reading.wav"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 11",
+  "checkin_id": "cee4365f-686d-4ba7-b85a-3c50afce4363",
+  "timestamp": "2026-04-15 00:13:44.118+00",
+  "self_reports": {
+    "step1_baseline": 1,
+    "step5a_after_stroop": 1,
+    "step5b_after_negative": 1,
+    "step8_post_relax": 1
+  },
+  "stress_curve": {
+    "S1_baseline": 0.0,
+    "S5_peak": 0.0,
+    "S8_post_relax": 0.0
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.3699654810130596,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.21382419764995575
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.18626120686531067
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.21630197018384933
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.1800895631313324
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.5611,
+    "discordance_peak": -0.556,
+    "discordance_postrelax": -0.4897,
+    "discordance_peak_abs": 0.556,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5611160124139783,
+    "step3_stroop": 0.548629871011266,
+    "step4_negative_event": 0.5633655004992829,
+    "step7_positive_reading": 0.48968725585674916
+  },
+  "transcript_step2": "I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but I don't know what I'm going to do, but She ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain't, she ain, she ain't, she ain't, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain, she ain,",
+  "transcript_step4": "I'm here to go again to see my face to face, and I'll keep my veins to myself.  It's all in me who I've stood up for every reason, and you're doing a dream to live.  It's like a happy birthday, it's three days off, remember what you did, and watch me out.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 303.3768,
+      "f0_std": 68.5395,
+      "pitch_instability": 5.3611,
+      "speech_rate_syllables_per_sec": 1.7978,
+      "intensity_mean_db": -28.4782,
+      "hnr_mean": 7.4697,
+      "utterance_dur_total": 28.32,
+      "pause_dur_mean": 0.7739
+    },
+    "step3_stroop": {
+      "f0_mean": 227.218,
+      "f0_std": 106.1885,
+      "pitch_instability": 8.7733,
+      "speech_rate_syllables_per_sec": 3.0222,
+      "intensity_mean_db": -28.1666,
+      "hnr_mean": 2.3438,
+      "utterance_dur_total": 37.83,
+      "pause_dur_mean": 0.4212
+    },
+    "step4_negative_event": {
+      "f0_mean": 155.1164,
+      "f0_std": 58.9484,
+      "pitch_instability": 2.9677,
+      "speech_rate_syllables_per_sec": 1.6453,
+      "intensity_mean_db": -25.6611,
+      "hnr_mean": 8.9429,
+      "utterance_dur_total": 38.46,
+      "pause_dur_mean": 0.5
+    },
+    "step7_positive_reading": {
+      "f0_mean": 159.906,
+      "f0_std": 56.2271,
+      "pitch_instability": 3.3766,
+      "speech_rate_syllables_per_sec": 1.1232,
+      "intensity_mean_db": -25.2578,
+      "hnr_mean": 10.7399,
+      "utterance_dur_total": 42.97,
+      "pause_dur_mean": 0.6114
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776212025880-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776212026313-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776212026728-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776212027225-checkin-1-reading.wav"
+  }
+}

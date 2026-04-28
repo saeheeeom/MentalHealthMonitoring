@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 19",
+  "checkin_id": "34998fd6-d820-45ea-bdec-fd00cbe920d1",
+  "timestamp": "2026-04-18 00:21:11.771+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.375,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": -0.125,
+  "recovery": 0.125,
+  "semantic_score": 0.3611875229825576,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.1696207970380783
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.15044910460710526
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.2296322137117386
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.1568487212061882
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.0732,
+    "discordance_peak": -0.1913,
+    "discordance_postrelax": -0.2146,
+    "discordance_peak_abs": 0.1913,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5732200297244854,
+    "step3_stroop": 0.5771215360205868,
+    "step4_negative_event": 0.5554356630133624,
+    "step7_positive_reading": 0.46457295154967837
+  },
+  "transcript_step2": "I enjoyed getting Bobo with my friends and it's hard to get one on one time with them.  So this was nice just to talk and take a break from doing homework.  Yeah, that was the highlight of my day.  also yeah getting boba because I tried all glazed tea for the first time and it was pretty good  I want to get my homework done",
+  "transcript_step4": "So I have my MGT homework due and my HGDA homework due, I haven't started them because I wanted to watch the lecture for HGDA first, so I'm gonna do a little bit of that, just the relevant lectures and then get started on HGDA, which I think won't take too long.  And they're both due Sunday, so I'm gonna grind tonight, I'm gonna grind all of tomorrow, and I have a Sunday too, so it should be okay.  And then I have like my woods presentation on Tuesday and I just have to like, you know,  just prepare a little bit what I'll say, I think for the most part should be fine.  And then I have a take a mix that I'm going to speak that I'm excited to get over with.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 226.1629,
+      "f0_std": 37.9157,
+      "pitch_instability": 4.3697,
+      "speech_rate_syllables_per_sec": 1.0403,
+      "intensity_mean_db": -26.9016,
+      "hnr_mean": 16.3089,
+      "utterance_dur_total": 19.57,
+      "pause_dur_mean": 2.1182
+    },
+    "step3_stroop": {
+      "f0_mean": 203.6357,
+      "f0_std": 65.0019,
+      "pitch_instability": 5.1236,
+      "speech_rate_syllables_per_sec": 1.3556,
+      "intensity_mean_db": -26.7644,
+      "hnr_mean": 15.7554,
+      "utterance_dur_total": 19.17,
+      "pause_dur_mean": 0.6298
+    },
+    "step4_negative_event": {
+      "f0_mean": 216.4749,
+      "f0_std": 57.0355,
+      "pitch_instability": 5.6013,
+      "speech_rate_syllables_per_sec": 2.133,
+      "intensity_mean_db": -26.8399,
+      "hnr_mean": 15.7758,
+      "utterance_dur_total": 34.41,
+      "pause_dur_mean": 0.535
+    },
+    "step7_positive_reading": {
+      "f0_mean": 204.759,
+      "f0_std": 74.2813,
+      "pitch_instability": 7.7388,
+      "speech_rate_syllables_per_sec": 2.8405,
+      "intensity_mean_db": -27.4436,
+      "hnr_mean": 13.0518,
+      "utterance_dur_total": 43.36,
+      "pause_dur_mean": 0.3863
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776471671595-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776471672066-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776471672558-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776471672905-checkin-1-reading.wav"
+  }
+}

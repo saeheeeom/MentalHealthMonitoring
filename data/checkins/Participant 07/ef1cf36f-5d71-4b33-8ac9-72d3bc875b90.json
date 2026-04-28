@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 07",
+  "checkin_id": "ef1cf36f-5d71-4b33-8ac9-72d3bc875b90",
+  "timestamp": "2026-04-14 22:55:35.133+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 3
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.5,
+    "S8_post_relax": 0.5
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.3431256777296463,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.20215162634849548
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.1303727813065052
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.16781987994909286
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.11934668570756912
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.0761,
+    "discordance_peak": -0.0795,
+    "discordance_postrelax": 0.0016,
+    "discordance_peak_abs": 0.0795,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5760692286529301,
+    "step3_stroop": 0.5908742880525606,
+    "step4_negative_event": 0.5680755415473157,
+    "step7_positive_reading": 0.4983679027875976
+  },
+  "transcript_step2": "Let's check into baseline.  Thank you very much for your time, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very much, thank you very, thank you very much, thank you very, thank you very much, thank you very, thank you very much, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very, thank you very",
+  "transcript_step4": "Let's check into Dress.  Thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 157.9586,
+      "f0_std": 143.9984,
+      "pitch_instability": 12.9184,
+      "speech_rate_syllables_per_sec": 0.1531,
+      "intensity_mean_db": -25.0813,
+      "hnr_mean": 8.3611,
+      "utterance_dur_total": 1.82,
+      "pause_dur_mean": 0.45
+    },
+    "step3_stroop": {
+      "f0_mean": 119.6487,
+      "f0_std": 58.4198,
+      "pitch_instability": 8.5434,
+      "speech_rate_syllables_per_sec": 0.1307,
+      "intensity_mean_db": -24.5318,
+      "hnr_mean": 12.856,
+      "utterance_dur_total": 0.99,
+      "pause_dur_mean": 0.0
+    },
+    "step4_negative_event": {
+      "f0_mean": 173.7054,
+      "f0_std": 116.2396,
+      "pitch_instability": 17.8535,
+      "speech_rate_syllables_per_sec": 0.2655,
+      "intensity_mean_db": -26.7146,
+      "hnr_mean": 9.5339,
+      "utterance_dur_total": 1.69,
+      "pause_dur_mean": 2.395
+    },
+    "step7_positive_reading": {
+      "f0_mean": 88.8608,
+      "f0_std": 26.8068,
+      "pitch_instability": 2.9791,
+      "speech_rate_syllables_per_sec": 1.4184,
+      "intensity_mean_db": -23.0337,
+      "hnr_mean": 7.2163,
+      "utterance_dur_total": 0.6,
+      "pause_dur_mean": 0.67
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776207340460-final10-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776207340689-final10-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776207340850-final10-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776207341057-final10-checkin-2-reading.wav"
+  }
+}

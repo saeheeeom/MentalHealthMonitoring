@@ -1,0 +1,103 @@
+{
+  "participant_id": "Participant 01",
+  "checkin_id": "4554c940-7156-4fb6-a820-608b2607758e",
+  "timestamp": "2026-04-17 17:37:18.725+00",
+  "self_reports": {
+    "step1_baseline": 5,
+    "step5a_after_stroop": 5,
+    "step5b_after_negative": 5,
+    "step8_post_relax": 5
+  },
+  "stress_curve": {
+    "S1_baseline": 1.0,
+    "S5_peak": 1.0,
+    "S8_post_relax": 1.0
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.3368918199890426,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.14893176406621933
+    ],
+    [
+      "avg_positive_affect_score",
+      0.25983910262584686
+    ],
+    [
+      "avg_self_blame_score",
+      0.20213240385055542
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.14303553849458694
+    ]
+  ],
+  "risk_score": 0.4184,
+  "risk_tier": "Low",
+  "discordance": {
+    "discordance_baseline": 0.4206,
+    "discordance_peak": 0.4146,
+    "discordance_postrelax": 0.4872,
+    "discordance_peak_abs": 0.4146,
+    "discordance_flag": true,
+    "discordance_direction": "over"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5793595220201467,
+    "step3_stroop": 0.5844039854272642,
+    "step4_negative_event": 0.5864332041662632,
+    "step7_positive_reading": 0.5128452503061303
+  },
+  "transcript_step2": "Tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, tsk, Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.",
+  "transcript_step4": "Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.  Thank you very much.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 179.8875,
+      "f0_std": 45.9399,
+      "pitch_instability": 11.0957,
+      "speech_rate_syllables_per_sec": 0.1238,
+      "intensity_mean_db": -33.8386,
+      "hnr_mean": 5.5011,
+      "utterance_dur_total": 0.11,
+      "pause_dur_mean": 0.0
+    },
+    "step3_stroop": {
+      "f0_mean": 143.3737,
+      "f0_std": 26.7206,
+      "pitch_instability": 7.8321,
+      "speech_rate_syllables_per_sec": 0.3788,
+      "intensity_mean_db": -95.5245,
+      "hnr_mean": 8.4317
+    },
+    "step4_negative_event": {
+      "f0_mean": 193.6964,
+      "f0_std": 69.981,
+      "pitch_instability": 6.2736,
+      "speech_rate_syllables_per_sec": 0.0646,
+      "intensity_mean_db": -24.8118,
+      "hnr_mean": 16.7676,
+      "utterance_dur_total": 0.89,
+      "pause_dur_mean": 0.0
+    },
+    "step7_positive_reading": {
+      "f0_mean": 123.6874,
+      "f0_std": 0.1067,
+      "pitch_instability": 0.2135,
+      "speech_rate_syllables_per_sec": 0.0201,
+      "intensity_mean_db": -100.1268,
+      "hnr_mean": 2.1028
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776447433958-checkin-3-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776447434669-checkin-3-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776447435183-checkin-3-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776447435676-checkin-3-reading.wav"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 19",
+  "checkin_id": "b4cbaea9-e616-42f6-b019-d1eb44fd4963",
+  "timestamp": "2026-04-25 21:36:19.481+00",
+  "self_reports": {
+    "step1_baseline": 2,
+    "step5a_after_stroop": 2,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.25,
+    "S5_peak": 0.375,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": 0.125,
+  "recovery": 0.125,
+  "semantic_score": 0.3213405343186524,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.11089181154966354
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.10480177029967308
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.14739353954792023
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.09800287336111069
+    ]
+  ],
+  "risk_score": 0.457,
+  "risk_tier": "Moderate",
+  "discordance": {
+    "discordance_baseline": -0.3131,
+    "discordance_peak": -0.1845,
+    "discordance_postrelax": -0.1984,
+    "discordance_peak_abs": 0.1845,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5630532227935987,
+    "step3_stroop": 0.5685953427261421,
+    "step4_negative_event": 0.5503299211416123,
+    "step7_positive_reading": 0.44843400603671246
+  },
+  "transcript_step2": "I toured an apartment, and it looked pretty nice. It's kind of, it's not super cheap, but not very expensive, and it's not in Midtown, it's like on the other side of campus, and I don't necessarily like that, but I think it's fine.   And I ate a pumpsome that made me feel good. I'm looking forward other than it.  Thank you very much for joining us today, and we'll see you in the next video, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you",
+  "transcript_step4": "My HGDA assignment is due tomorrow but I'm trying to get it done today before  tonight before I have people coming over and I want to get that done as fast as  possible. I have to code in VS code.  Because sometimes the assignment is hard and you have to do a lot of different things  in the code and it doesn't work all the time.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 199.9911,
+      "f0_std": 80.5922,
+      "pitch_instability": 7.6427,
+      "speech_rate_syllables_per_sec": 1.5267,
+      "intensity_mean_db": -28.8495,
+      "hnr_mean": 11.8805,
+      "utterance_dur_total": 20.62,
+      "pause_dur_mean": 2.0142
+    },
+    "step3_stroop": {
+      "f0_mean": 165.6172,
+      "f0_std": 80.2107,
+      "pitch_instability": 5.9574,
+      "speech_rate_syllables_per_sec": 2.0,
+      "intensity_mean_db": -30.4965,
+      "hnr_mean": 13.9882,
+      "utterance_dur_total": 20.08,
+      "pause_dur_mean": 0.733
+    },
+    "step4_negative_event": {
+      "f0_mean": 157.5395,
+      "f0_std": 95.7134,
+      "pitch_instability": 8.6683,
+      "speech_rate_syllables_per_sec": 2.4416,
+      "intensity_mean_db": -29.3631,
+      "hnr_mean": 10.2178,
+      "utterance_dur_total": 25.02,
+      "pause_dur_mean": 1.6908
+    },
+    "step7_positive_reading": {
+      "f0_mean": 174.374,
+      "f0_std": 102.8714,
+      "pitch_instability": 12.4028,
+      "speech_rate_syllables_per_sec": 3.9683,
+      "intensity_mean_db": -30.8833,
+      "hnr_mean": 9.8721,
+      "utterance_dur_total": 33.11,
+      "pause_dur_mean": 0.5709
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777152979237-checkin-3-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777152979682-checkin-3-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777152980102-checkin-3-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777152980657-checkin-3-reading.wav"
+  }
+}

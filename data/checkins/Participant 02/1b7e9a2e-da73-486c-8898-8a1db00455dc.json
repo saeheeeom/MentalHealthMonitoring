@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 02",
+  "checkin_id": "1b7e9a2e-da73-486c-8898-8a1db00455dc",
+  "timestamp": "2026-04-26 18:04:33.54+00",
+  "self_reports": {
+    "step1_baseline": 1,
+    "step5a_after_stroop": 4,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 1
+  },
+  "stress_curve": {
+    "S1_baseline": 0.0,
+    "S5_peak": 0.5,
+    "S8_post_relax": 0.0
+  },
+  "reactivity": 0.5,
+  "recovery": 0.5,
+  "semantic_score": 0.3195991090395384,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.15153730288147926
+    ],
+    [
+      "avg_positive_affect_score",
+      0.277241587638855
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.1760084554553032
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.11376231536269188
+    ]
+  ],
+  "risk_score": 0.4098,
+  "risk_tier": "Low",
+  "discordance": {
+    "discordance_baseline": -0.5722,
+    "discordance_peak": -0.0799,
+    "discordance_postrelax": -0.4764,
+    "discordance_peak_abs": 0.0799,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5722340749766506,
+    "step3_stroop": 0.5908534982895826,
+    "step4_negative_event": 0.5689079670089014,
+    "step7_positive_reading": 0.476388432524911
+  },
+  "transcript_step2": "My highlight of the day was that I competed in a bit volleyball tournament and it was meaningful  because I really enjoyed playing a bit volleyball and I had a lot of time to play, so I really enjoyed it today.   Yeah, the fact that we won one month make me feel very good and yeah, in general, I enjoyed this time a lot with my friend.",
+  "transcript_step4": "In the near future, I have to find a full time job and I feel very uncertain about it because I'm not sure that I will find something that I will like a lot or something that I will be satisfied.   So yeah, one possible outcome that I'm worried about is that I might not find a job at all and another one is that I might find a job that I don't like. I would love to find something that I like a lot and it's meaningful for me and for my career path.  Thank you.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 118.611,
+      "f0_std": 39.175,
+      "pitch_instability": 2.5111,
+      "speech_rate_syllables_per_sec": 1.2962,
+      "intensity_mean_db": -26.4531,
+      "hnr_mean": 14.2175,
+      "utterance_dur_total": 22.2,
+      "pause_dur_mean": 1.1388
+    },
+    "step3_stroop": {
+      "f0_mean": 118.4375,
+      "f0_std": 30.5404,
+      "pitch_instability": 5.2852,
+      "speech_rate_syllables_per_sec": 0.4447,
+      "intensity_mean_db": -26.8284,
+      "hnr_mean": 10.0915,
+      "utterance_dur_total": 4.79,
+      "pause_dur_mean": 2.7871
+    },
+    "step4_negative_event": {
+      "f0_mean": 115.7901,
+      "f0_std": 35.6108,
+      "pitch_instability": 2.4881,
+      "speech_rate_syllables_per_sec": 1.5596,
+      "intensity_mean_db": -27.0981,
+      "hnr_mean": 12.7736,
+      "utterance_dur_total": 23.84,
+      "pause_dur_mean": 1.625
+    },
+    "step7_positive_reading": {
+      "f0_mean": 110.8155,
+      "f0_std": 24.8554,
+      "pitch_instability": 2.4267,
+      "speech_rate_syllables_per_sec": 2.2943,
+      "intensity_mean_db": -26.8325,
+      "hnr_mean": 11.9841,
+      "utterance_dur_total": 49.06,
+      "pause_dur_mean": 0.5478
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777226664373-checkin-3-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777226666759-checkin-3-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777226670385-checkin-3-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777226673231-checkin-3-reading.wav"
+  }
+}

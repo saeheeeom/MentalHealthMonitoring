@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 13",
+  "checkin_id": "eef0b3c3-3449-4d3b-b0f9-a9d7330d13ee",
+  "timestamp": "2026-04-20 18:30:00.493+00",
+  "self_reports": {
+    "step1_baseline": 4,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.75,
+    "S5_peak": 0.5,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": -0.25,
+  "recovery": 0.25,
+  "semantic_score": 0.3377273036920953,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.20340978354215622
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.22532599419355392
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.20958591252565384
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.13891667127609253
+    ]
+  ],
+  "risk_score": 0.3725,
+  "risk_tier": "Low",
+  "discordance": {
+    "discordance_baseline": 0.1832,
+    "discordance_peak": -0.0713,
+    "discordance_postrelax": -0.2149,
+    "discordance_peak_abs": 0.0713,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5668350670145738,
+    "step3_stroop": 0.5834632895552473,
+    "step4_negative_event": 0.5592129009502083,
+    "step7_positive_reading": 0.46490406194475187
+  },
+  "transcript_step2": "The highlight of my day was the fact that I could get my work done off the weekend and  I'm kind of close to you.  Not yet.  I haven't had a moment yet where I've generally smiled or felt good.  I'm currently looking forward to getting my thing done, which I have to submit tomorrow.  It matters because I can finally relax after I get that done and I will not be stressed  I'm right now.",
+  "transcript_step4": "Oh, I need to send in software that I built for an enjoying ship.  Oh, I need to get the access to the credits I need to know to deploy it and send right an email to the.  It's a person and right why I think that.  What I vote is.  I need to get done by tomorrow night and hopefully that the only.  hopefully that be only enough for them to get through to my application and change any  decisions after I have made anything.  And the fact that I'm not sure if it will be only enough to change any decision to any  see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in the next video, see you in",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 110.4667,
+      "f0_std": 31.8511,
+      "pitch_instability": 3.1112,
+      "speech_rate_syllables_per_sec": 1.7142,
+      "intensity_mean_db": -27.6867,
+      "hnr_mean": 6.1845,
+      "utterance_dur_total": 22.0,
+      "pause_dur_mean": 1.4708
+    },
+    "step3_stroop": {
+      "f0_mean": 105.2298,
+      "f0_std": 30.374,
+      "pitch_instability": 2.8561,
+      "speech_rate_syllables_per_sec": 1.1686,
+      "intensity_mean_db": -28.277,
+      "hnr_mean": 6.504,
+      "utterance_dur_total": 14.88,
+      "pause_dur_mean": 0.7716
+    },
+    "step4_negative_event": {
+      "f0_mean": 100.2028,
+      "f0_std": 41.6578,
+      "pitch_instability": 5.209,
+      "speech_rate_syllables_per_sec": 1.9883,
+      "intensity_mean_db": -28.8605,
+      "hnr_mean": 6.2915,
+      "utterance_dur_total": 28.33,
+      "pause_dur_mean": 1.4554
+    },
+    "step7_positive_reading": {
+      "f0_mean": 105.0899,
+      "f0_std": 49.6893,
+      "pitch_instability": 6.3443,
+      "speech_rate_syllables_per_sec": 3.0802,
+      "intensity_mean_db": -28.6405,
+      "hnr_mean": 5.4618,
+      "utterance_dur_total": 39.39,
+      "pause_dur_mean": 0.4431
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776709798223-checkin-3-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776709798685-checkin-3-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776709799269-checkin-3-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776709799688-checkin-3-reading.wav"
+  }
+}

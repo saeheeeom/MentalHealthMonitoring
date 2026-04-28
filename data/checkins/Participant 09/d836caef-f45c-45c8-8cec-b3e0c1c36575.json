@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 09",
+  "checkin_id": "d836caef-f45c-45c8-8cec-b3e0c1c36575",
+  "timestamp": "2026-04-21 18:03:41.769+00",
+  "self_reports": {
+    "step1_baseline": 2,
+    "step5a_after_stroop": 2,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.25,
+    "S5_peak": 0.25,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.3793761228211224,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.140603668987751
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.10893295332789421
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.25266560167074203
+    ],
+    [
+      "avg_catastrophic_thinking_score",
+      0.223445825278759
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.3208,
+    "discordance_peak": -0.3353,
+    "discordance_postrelax": -0.2215,
+    "discordance_peak_abs": 0.3353,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5707833634772826,
+    "step3_stroop": 0.5844543367773805,
+    "step4_negative_event": 0.5861207719313497,
+    "step7_positive_reading": 0.4715191754641542
+  },
+  "transcript_step2": "The highlight of my day was, I went to CRC, I played basketball, it was pretty good,  I played basketball after a long time, so that was pretty good.  Yeah, that's pretty much it, it's afternoon right now, nothing else has happened.  I am looking for to complete my project.  Thank you very much.",
+  "transcript_step4": "Honestly, I can't think of anything, that did not go well, I don't know, I don't have  the thing that did not go well.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 155.1532,
+      "f0_std": 57.0558,
+      "pitch_instability": 5.4219,
+      "speech_rate_syllables_per_sec": 1.2209,
+      "intensity_mean_db": -28.1384,
+      "hnr_mean": 9.9613,
+      "utterance_dur_total": 15.82,
+      "pause_dur_mean": 1.9727
+    },
+    "step3_stroop": {
+      "f0_mean": 145.7571,
+      "f0_std": 24.0273,
+      "pitch_instability": 3.6254,
+      "speech_rate_syllables_per_sec": 1.0667,
+      "intensity_mean_db": -25.7067,
+      "hnr_mean": 10.6147,
+      "utterance_dur_total": 11.46,
+      "pause_dur_mean": 0.8624
+    },
+    "step4_negative_event": {
+      "f0_mean": 144.7613,
+      "f0_std": 8.4546,
+      "pitch_instability": 2.3424,
+      "speech_rate_syllables_per_sec": 0.4949,
+      "intensity_mean_db": -28.9452,
+      "hnr_mean": 9.8535,
+      "utterance_dur_total": 4.43,
+      "pause_dur_mean": 2.96
+    },
+    "step7_positive_reading": {
+      "f0_mean": 143.6901,
+      "f0_std": 25.9968,
+      "pitch_instability": 3.3613,
+      "speech_rate_syllables_per_sec": 2.8086,
+      "intensity_mean_db": -29.3456,
+      "hnr_mean": 8.3662,
+      "utterance_dur_total": 41.22,
+      "pause_dur_mean": 0.5765
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776794620245-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776794620692-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776794621072-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776794621509-checkin-2-reading.wav"
+  }
+}

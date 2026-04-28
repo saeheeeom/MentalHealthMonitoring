@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 04",
+  "checkin_id": "7a417d5f-1d1d-44bc-b094-e522676f3c32",
+  "timestamp": "2026-04-14 17:26:26.711+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 3
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.5,
+    "S8_post_relax": 0.5
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.34833377243744,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.1572984978556633
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.1591581627726555
+    ],
+    [
+      "avg_catastrophic_thinking_score",
+      0.16145256161689758
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.13805333897471428
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.0489,
+    "discordance_peak": -0.0312,
+    "discordance_postrelax": 0.0418,
+    "discordance_peak_abs": 0.0312,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5489375563491604,
+    "step3_stroop": 0.531412217791533,
+    "step4_negative_event": 0.5310435572505531,
+    "step7_positive_reading": 0.458183698958199
+  },
+  "transcript_step2": "Yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, If you can't do something like this, it's like the right thing to do what is this.  Also, you might just have nothing to do with water, but it's just something else.  And you know, it was the same point.",
+  "transcript_step4": "It takes a bit better for us to be able to understand what we're doing, but it doesn't go like this.  Oh, this is what you get.  Oh, this is what you get everything to say.  What do you get?  Please put me in front of that.  That wasn't a thing.  Everyone makes a stone count.  It's right at the part of the land.  It's really nice and tall.  It's the people living in this place.  It's really close to us.   If you say it starts here, then not at all, it's like going past, right to see, but if you The reason why he was a little sick is that it's that engine transformable like he was on the piece.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 130.7779,
+      "f0_std": 82.7446,
+      "pitch_instability": 16.8498,
+      "speech_rate_syllables_per_sec": 1.7849,
+      "intensity_mean_db": -32.5325,
+      "hnr_mean": 2.9483,
+      "utterance_dur_total": 15.42,
+      "pause_dur_mean": 1.2729
+    },
+    "step3_stroop": {
+      "f0_mean": 117.4065,
+      "f0_std": 64.0868,
+      "pitch_instability": 9.4054,
+      "speech_rate_syllables_per_sec": 4.6444,
+      "intensity_mean_db": -32.3852,
+      "hnr_mean": 5.6436,
+      "utterance_dur_total": 31.84,
+      "pause_dur_mean": 0.5368
+    },
+    "step4_negative_event": {
+      "f0_mean": 133.0401,
+      "f0_std": 75.6075,
+      "pitch_instability": 10.9045,
+      "speech_rate_syllables_per_sec": 3.6213,
+      "intensity_mean_db": -31.1142,
+      "hnr_mean": 5.0948,
+      "utterance_dur_total": 36.73,
+      "pause_dur_mean": 0.5233
+    },
+    "step7_positive_reading": {
+      "f0_mean": 93.0217,
+      "f0_std": 26.9373,
+      "pitch_instability": 3.6356,
+      "speech_rate_syllables_per_sec": 4.902,
+      "intensity_mean_db": -32.9821,
+      "hnr_mean": 4.6204,
+      "utterance_dur_total": 3.25,
+      "pause_dur_mean": 0.275
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776187587173-aaa-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776187592538-aaa-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776187597896-aaa-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776187598517-aaa-checkin-1-reading.wav"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 01",
+  "checkin_id": "c778f094-ea4f-4147-b3ab-b40c77644568",
+  "timestamp": "2026-04-15 16:33:28.952+00",
+  "self_reports": {
+    "step1_baseline": 5,
+    "step5a_after_stroop": 5,
+    "step5b_after_negative": 5,
+    "step8_post_relax": 5
+  },
+  "stress_curve": {
+    "S1_baseline": 1.0,
+    "S5_peak": 1.0,
+    "S8_post_relax": 1.0
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.33132777536650077,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.1784883588552475
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.14509080350399017
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.2019524872303009
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.11413142830133438
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": 0.4377,
+    "discordance_peak": 0.4445,
+    "discordance_postrelax": 0.5388,
+    "discordance_peak_abs": 0.4445,
+    "discordance_flag": true,
+    "discordance_direction": "over"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5623128630713847,
+    "step3_stroop": 0.5689219006643985,
+    "step4_negative_event": 0.5420676553684473,
+    "step7_positive_reading": 0.46118019767424046
+  },
+  "transcript_step2": "Now the highlight of my day would be going to the lecture today and I was able to understand  a lot of things and the researcher, the person who presented was really good so I was  able to ask some good questions, which is what made my day. Yeah. Yeah, I mean, when  not as such, it made me feel good, but did not make me smile as such. But yeah, it was  Nice",
+  "transcript_step4": "I actually did a lot of tasks recently, so I was able to submit them like my DVA homework  and my other things such as the data business analytics homework, the only thing is that  I am still yet to do the valuing technology firms, Quest 2 and the assignment, the case  study and the group members are not really supportive.  So I think I should be able to replace there is a deep learning project because it has  a lot of fresh creative thinking so yeah, I need to like sit down and do that and then  also do the business. I think for the business I'll do what I'll do is I'll just ask the person  divide the task and you know get and then there's also the project for that course. Initially I  thought that that course will not take a lot of time but apparently that's the course which is  giving me the most amount of pain but yeah.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 117.527,
+      "f0_std": 48.8041,
+      "pitch_instability": 5.2771,
+      "speech_rate_syllables_per_sec": 1.8088,
+      "intensity_mean_db": -20.8726,
+      "hnr_mean": 10.5755,
+      "utterance_dur_total": 23.85,
+      "pause_dur_mean": 1.3469
+    },
+    "step3_stroop": {
+      "f0_mean": 119.3858,
+      "f0_std": 69.8614,
+      "pitch_instability": 5.9926,
+      "speech_rate_syllables_per_sec": 1.8939,
+      "intensity_mean_db": -18.5125,
+      "hnr_mean": 11.3763,
+      "utterance_dur_total": 23.05,
+      "pause_dur_mean": 0.6787
+    },
+    "step4_negative_event": {
+      "f0_mean": 118.3188,
+      "f0_std": 70.0136,
+      "pitch_instability": 6.9739,
+      "speech_rate_syllables_per_sec": 2.6695,
+      "intensity_mean_db": -19.685,
+      "hnr_mean": 10.3649,
+      "utterance_dur_total": 55.0,
+      "pause_dur_mean": 0.5468
+    },
+    "step7_positive_reading": {
+      "f0_mean": 120.3475,
+      "f0_std": 73.5253,
+      "pitch_instability": 8.4484,
+      "speech_rate_syllables_per_sec": 2.9412,
+      "intensity_mean_db": -21.8045,
+      "hnr_mean": 9.178,
+      "utterance_dur_total": 48.2,
+      "pause_dur_mean": 0.5387
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776270803948-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776270805091-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776270806026-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776270807035-checkin-1-reading.wav"
+  }
+}

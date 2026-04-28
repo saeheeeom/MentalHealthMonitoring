@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 19",
+  "checkin_id": "fbb938c0-ddda-4d81-8215-92ea2a8f4a2d",
+  "timestamp": "2026-04-22 01:24:16.231+00",
+  "self_reports": {
+    "step1_baseline": 2,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.25,
+    "S5_peak": 0.375,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": 0.125,
+  "recovery": 0.125,
+  "semantic_score": 0.3752482463967883,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.15399744361639023
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.16681800782680511
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.20767059922218323
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.21133186295628548
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.317,
+    "discordance_peak": -0.1928,
+    "discordance_postrelax": -0.2106,
+    "discordance_peak_abs": 0.1928,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5669752430352981,
+    "step3_stroop": 0.574135759430432,
+    "step4_negative_event": 0.5614748622196851,
+    "step7_positive_reading": 0.46062163726430816
+  },
+  "transcript_step2": "The highlight of today was finally finishing wits.  Being done with wits, eating the food at wits, yeah.  I'm looking forward to finishing packing and shipping my UPS package tomorrow because  and it'll be a huge, well, weight off my shoulders, and I'm excited to finish my homework and just chill.",
+  "transcript_step4": "Well, um, I talked to the friend about something bad they did, and they said sorry, but it wasn't like a real apology, and now they're like avoiding me and my mutual friends, and my other friends are, I don't even know what they're thinking, and yeah, that's making me a little bit sad.   Um, nothing. I did everything what I was supposed to do. They're the ones that did something wrong, and if they want to isolate themselves, that's their choice.  because they were my friend and they did something pretty bad.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 213.9241,
+      "f0_std": 51.7509,
+      "pitch_instability": 4.5822,
+      "speech_rate_syllables_per_sec": 1.4256,
+      "intensity_mean_db": -28.0622,
+      "hnr_mean": 15.1797,
+      "utterance_dur_total": 25.84,
+      "pause_dur_mean": 1.643
+    },
+    "step3_stroop": {
+      "f0_mean": 211.1439,
+      "f0_std": 57.6779,
+      "pitch_instability": 5.7879,
+      "speech_rate_syllables_per_sec": 1.4667,
+      "intensity_mean_db": -26.5234,
+      "hnr_mean": 14.9502,
+      "utterance_dur_total": 22.3,
+      "pause_dur_mean": 0.6819
+    },
+    "step4_negative_event": {
+      "f0_mean": 180.584,
+      "f0_std": 72.1224,
+      "pitch_instability": 5.9823,
+      "speech_rate_syllables_per_sec": 1.769,
+      "intensity_mean_db": -27.2732,
+      "hnr_mean": 12.9123,
+      "utterance_dur_total": 25.0,
+      "pause_dur_mean": 1.4893
+    },
+    "step7_positive_reading": {
+      "f0_mean": 210.3116,
+      "f0_std": 71.1896,
+      "pitch_instability": 8.4375,
+      "speech_rate_syllables_per_sec": 3.315,
+      "intensity_mean_db": -29.6472,
+      "hnr_mean": 13.4923,
+      "utterance_dur_total": 34.95,
+      "pause_dur_mean": 0.3917
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776821055654-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776821056123-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776821056508-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776821056847-checkin-2-reading.wav"
+  }
+}

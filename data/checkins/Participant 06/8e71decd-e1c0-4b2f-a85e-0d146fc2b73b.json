@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 06",
+  "checkin_id": "8e71decd-e1c0-4b2f-a85e-0d146fc2b73b",
+  "timestamp": "2026-04-23 19:33:16.534+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 2,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 1
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.25,
+    "S8_post_relax": 0.0
+  },
+  "reactivity": -0.25,
+  "recovery": 0.25,
+  "semantic_score": 0.370451947239538,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.16632135957479477
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.18282748758792877
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.2672058120369911
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.19204552471637726
+    ]
+  ],
+  "risk_score": 0.3889,
+  "risk_tier": "Low",
+  "discordance": {
+    "discordance_baseline": -0.0635,
+    "discordance_peak": -0.3205,
+    "discordance_postrelax": -0.4682,
+    "discordance_peak_abs": 0.3205,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5635083226404201,
+    "step3_stroop": 0.5821467378812144,
+    "step4_negative_event": 0.5589316611608669,
+    "step7_positive_reading": 0.46818444241518875
+  },
+  "transcript_step2": "So today I did not have any classes to go to, so I slept in, I woke up naturally to  sunlight, it felt great not to be coming to the end of the term, not having commitments  in the morning so I can sleep in and look forward to a productive day at my own pace,  cooking my own lunch, taking time to do that, and all that.  So well, yeah, I'm not having classes today, it was the highlight of my day.",
+  "transcript_step4": "So, I'm starting my internship in less than a month now, going to a new place, not  having people that I already know there, that's something that's making me a little anxious.  I need to make sure that I'm mentally prepared for that, make sure I make adequate preparations,  get my car rental,  assimilate well, make sure I do a good job  in my internship as well.  So, yeah, I think I'm moving really quickly  and there's something that I need to get ready for.  Maybe not assimilating well enough.  And yeah, it's just unknown, right?",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 117.4905,
+      "f0_std": 53.5412,
+      "pitch_instability": 4.8801,
+      "speech_rate_syllables_per_sec": 1.746,
+      "intensity_mean_db": -26.8853,
+      "hnr_mean": 11.661,
+      "utterance_dur_total": 24.02,
+      "pause_dur_mean": 0.7985
+    },
+    "step3_stroop": {
+      "f0_mean": 110.8824,
+      "f0_std": 44.3059,
+      "pitch_instability": 4.547,
+      "speech_rate_syllables_per_sec": 1.1458,
+      "intensity_mean_db": -26.864,
+      "hnr_mean": 11.6895,
+      "utterance_dur_total": 12.07,
+      "pause_dur_mean": 1.5265
+    },
+    "step4_negative_event": {
+      "f0_mean": 108.0003,
+      "f0_std": 43.0169,
+      "pitch_instability": 4.3503,
+      "speech_rate_syllables_per_sec": 2.1308,
+      "intensity_mean_db": -27.8287,
+      "hnr_mean": 11.0022,
+      "utterance_dur_total": 27.9,
+      "pause_dur_mean": 0.8327
+    },
+    "step7_positive_reading": {
+      "f0_mean": 127.868,
+      "f0_std": 58.6122,
+      "pitch_instability": 5.7878,
+      "speech_rate_syllables_per_sec": 3.0305,
+      "intensity_mean_db": -27.3969,
+      "hnr_mean": 11.3223,
+      "utterance_dur_total": 32.09,
+      "pause_dur_mean": 0.3789
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776972793253-checkin-3-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776972793672-checkin-3-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776972794013-checkin-3-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776972794322-checkin-3-reading.wav"
+  }
+}

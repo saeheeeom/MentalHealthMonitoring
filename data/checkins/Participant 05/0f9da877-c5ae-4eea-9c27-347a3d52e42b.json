@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 05",
+  "checkin_id": "0f9da877-c5ae-4eea-9c27-347a3d52e42b",
+  "timestamp": "2026-04-20 21:42:14.858+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 1,
+    "step5b_after_negative": 4,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.375,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": -0.125,
+  "recovery": 0.125,
+  "semantic_score": 0.3421781327989366,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.13062460534274578
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.16728730127215385
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.1741008386015892
+    ],
+    [
+      "avg_catastrophic_thinking_score",
+      0.11769569665193558
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.0834,
+    "discordance_peak": -0.2071,
+    "discordance_postrelax": -0.2262,
+    "discordance_peak_abs": 0.2071,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5833897464945772,
+    "step3_stroop": 0.5899476384871782,
+    "step4_negative_event": 0.5741927244922425,
+    "step7_positive_reading": 0.47617464847756513
+  },
+  "transcript_step2": "My highlight of my day was I had a decent lunch. I had some nice Korean food at my house and I'm heading to play tennis right now.  Thank you very much, Mr. President, for your time, and I'll see you in the next video.",
+  "transcript_step4": "I'm wrapping up my semester, my spring semester, so I have one deep learning project that  is due on May 4th, and I have two exams, final exams.  One is computational statistics and what is the deterministic optimization?  Finally, the exams are pretty hard, so...  I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 122.539,
+      "f0_std": 26.2029,
+      "pitch_instability": 2.4259,
+      "speech_rate_syllables_per_sec": 0.589,
+      "intensity_mean_db": -18.2484,
+      "hnr_mean": 9.7881,
+      "utterance_dur_total": 10.28,
+      "pause_dur_mean": 4.2533
+    },
+    "step3_stroop": {
+      "f0_mean": 106.4328,
+      "f0_std": 6.9144,
+      "pitch_instability": 1.104,
+      "speech_rate_syllables_per_sec": 0.8228,
+      "intensity_mean_db": -21.3194,
+      "hnr_mean": 11.9278,
+      "utterance_dur_total": 13.96,
+      "pause_dur_mean": 0.8603
+    },
+    "step4_negative_event": {
+      "f0_mean": 117.5487,
+      "f0_std": 25.8645,
+      "pitch_instability": 2.4943,
+      "speech_rate_syllables_per_sec": 1.1676,
+      "intensity_mean_db": -20.3594,
+      "hnr_mean": 10.3853,
+      "utterance_dur_total": 20.3,
+      "pause_dur_mean": 2.0442
+    },
+    "step7_positive_reading": {
+      "f0_mean": 110.5725,
+      "f0_std": 29.7777,
+      "pitch_instability": 2.4104,
+      "speech_rate_syllables_per_sec": 2.3421,
+      "intensity_mean_db": -22.5855,
+      "hnr_mean": 8.6468,
+      "utterance_dur_total": 47.97,
+      "pause_dur_mean": 0.4114
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776721332042-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776721332846-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776721333567-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776721334616-checkin-1-reading.wav"
+  }
+}

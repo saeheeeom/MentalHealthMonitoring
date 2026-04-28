@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 16",
+  "checkin_id": "c4ebbfc8-bc01-445d-ad12-66d8acf0f09d",
+  "timestamp": "2026-04-15 01:07:03.612+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 5,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 3
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.75,
+    "S8_post_relax": 0.5
+  },
+  "reactivity": 0.25,
+  "recovery": 0.25,
+  "semantic_score": 0.3301538513662914,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.1355963535606861
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.12700283527374268
+    ],
+    [
+      "avg_catastrophic_thinking_score",
+      0.13094154372811317
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.11916961893439293
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.0572,
+    "discordance_peak": 0.1898,
+    "discordance_postrelax": 0.0322,
+    "discordance_peak_abs": 0.1898,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5572415927521158,
+    "step3_stroop": 0.5754692968386514,
+    "step4_negative_event": 0.5448388545109843,
+    "step7_positive_reading": 0.4678471885029589
+  },
+  "transcript_step2": "Um, I got invited to a bridal shower party for my friend who is getting married in a couple of months, um, so I will be traveling.  Let's see if we can get it out of the box, let's see if we can get it out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box, let's see if it's out of the box,",
+  "transcript_step4": "So I'm looking for a place to stay during summer at Boston, but it's really hard because  I'm trying to find a place I could stay for only a month.  Well, first of all, I would not talk to the same person again because he didn't even have  a room available, but just reached out to me.  he was also taking a shower when I first started the meeting so that actually also pissed me off.  Well, I'm trying to find a place to stay and I can't find it.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 107.7192,
+      "f0_std": 62.3684,
+      "pitch_instability": 4.598,
+      "speech_rate_syllables_per_sec": 2.4639,
+      "intensity_mean_db": -29.9064,
+      "hnr_mean": 10.8151,
+      "utterance_dur_total": 19.21,
+      "pause_dur_mean": 1.2372
+    },
+    "step3_stroop": {
+      "f0_mean": 130.6381,
+      "f0_std": 56.0009,
+      "pitch_instability": 4.5412,
+      "speech_rate_syllables_per_sec": 1.5333,
+      "intensity_mean_db": -26.7769,
+      "hnr_mean": 12.0083,
+      "utterance_dur_total": 20.97,
+      "pause_dur_mean": 0.5771
+    },
+    "step4_negative_event": {
+      "f0_mean": 131.1541,
+      "f0_std": 60.5768,
+      "pitch_instability": 6.4695,
+      "speech_rate_syllables_per_sec": 3.1503,
+      "intensity_mean_db": -29.3406,
+      "hnr_mean": 9.5274,
+      "utterance_dur_total": 27.5,
+      "pause_dur_mean": 0.8012
+    },
+    "step7_positive_reading": {
+      "f0_mean": 168.2951,
+      "f0_std": 52.7083,
+      "pitch_instability": 5.8744,
+      "speech_rate_syllables_per_sec": 2.5186,
+      "intensity_mean_db": -28.1321,
+      "hnr_mean": 11.5488,
+      "utterance_dur_total": 53.96,
+      "pause_dur_mean": 0.54
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776215221957-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776215222421-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776215222748-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776215223239-checkin-2-reading.wav"
+  }
+}

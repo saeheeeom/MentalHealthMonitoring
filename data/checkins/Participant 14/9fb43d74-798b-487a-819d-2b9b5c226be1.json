@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 14",
+  "checkin_id": "9fb43d74-798b-487a-819d-2b9b5c226be1",
+  "timestamp": "2026-04-16 01:53:14.483+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 4,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 3
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.625,
+    "S8_post_relax": 0.5
+  },
+  "reactivity": 0.125,
+  "recovery": 0.125,
+  "semantic_score": 0.34257690771482885,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.1576494351029396
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.14848798885941505
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.15637078881263733
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.17199809476733208
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.0745,
+    "discordance_peak": 0.0499,
+    "discordance_postrelax": 0.0197,
+    "discordance_peak_abs": 0.0499,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5744766523420441,
+    "step3_stroop": 0.5857741109235981,
+    "step4_negative_event": 0.5643521259619926,
+    "step7_positive_reading": 0.48034064701942103
+  },
+  "transcript_step2": "One highlight of my day was finally starting the process to get my U.S. driver's license  after putting it off for five years of staying here.  It felt meaningful because I've been meaning to do it for a long time.  It's a step towards proper independence and all that.  I was also more productive than usual today so that made the day feel satisfying.  I'll spend another I can think of.",
+  "transcript_step4": "I have a few things coming up, my DVA homework is due soon, and I also have a Bayesian  statistics project presentation, and also an MGT course with a presentation for that.  So I need to prepare.  On top of that, I need to figure out my summer plans, I need to figure out housing,  whether I'll be taking courses or not.  I'm not sure about that yet.  I need to start the project and collect the data  to get an actual pipeline working  and then I'll be able to present the results.  So yeah, the presentation will be on the results.  So I guess step one is getting the data.  but that's true for both the products.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 115.4517,
+      "f0_std": 23.8807,
+      "pitch_instability": 2.1395,
+      "speech_rate_syllables_per_sec": 1.0625,
+      "intensity_mean_db": -21.5281,
+      "hnr_mean": 12.8869,
+      "utterance_dur_total": 25.38,
+      "pause_dur_mean": 1.8811
+    },
+    "step3_stroop": {
+      "f0_mean": 111.314,
+      "f0_std": 6.2949,
+      "pitch_instability": 1.5407,
+      "speech_rate_syllables_per_sec": 1.0918,
+      "intensity_mean_db": -19.4699,
+      "hnr_mean": 12.8845,
+      "utterance_dur_total": 16.17,
+      "pause_dur_mean": 0.66
+    },
+    "step4_negative_event": {
+      "f0_mean": 116.3444,
+      "f0_std": 35.4898,
+      "pitch_instability": 4.3546,
+      "speech_rate_syllables_per_sec": 1.4542,
+      "intensity_mean_db": -19.3819,
+      "hnr_mean": 12.6128,
+      "utterance_dur_total": 35.57,
+      "pause_dur_mean": 1.2529
+    },
+    "step7_positive_reading": {
+      "f0_mean": 119.3244,
+      "f0_std": 35.2544,
+      "pitch_instability": 3.9627,
+      "speech_rate_syllables_per_sec": 1.759,
+      "intensity_mean_db": -19.622,
+      "hnr_mean": 11.7658,
+      "utterance_dur_total": 48.55,
+      "pause_dur_mean": 0.87
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776304393000-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776304393391-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776304393817-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776304394272-checkin-1-reading.wav"
+  }
+}

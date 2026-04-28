@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 17",
+  "checkin_id": "e675070d-cbc3-42c7-b304-f0d303eb1f39",
+  "timestamp": "2026-04-22 15:03:26.19+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 5,
+    "step5b_after_negative": 5,
+    "step8_post_relax": 4
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 1.0,
+    "S8_post_relax": 0.75
+  },
+  "reactivity": 0.5,
+  "recovery": 0.25,
+  "semantic_score": 0.3654666267132022,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.14855743944644928
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.13827310502529144
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.19839788228273392
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.17090889066457748
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.069,
+    "discordance_peak": 0.446,
+    "discordance_postrelax": 0.2905,
+    "discordance_peak_abs": 0.446,
+    "discordance_flag": true,
+    "discordance_direction": "over"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5690065161639717,
+    "step3_stroop": 0.5619460176019708,
+    "step4_negative_event": 0.5460432789301981,
+    "step7_positive_reading": 0.45950789688362803
+  },
+  "transcript_step2": "Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  Let's see what we have to do now.  I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm going to put it in the middle of the room and I'm",
+  "transcript_step4": "I was talking to my career advisor and he wasn't really understanding what I meant by  I really am concerned about like the timeline of everything before the internship starts.  I have to get my background checking done but I don't have all the documents needed for  that so it was super delayed on his end.  So I was super stressed out.  I don't think he understands the frustration that international students have to go through.  I don't know, maybe, maybe I would have come to another grad school.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 99.9661,
+      "f0_std": 72.9579,
+      "pitch_instability": 9.5934,
+      "speech_rate_syllables_per_sec": 1.0497,
+      "intensity_mean_db": -30.9461,
+      "hnr_mean": 6.2577,
+      "utterance_dur_total": 8.16,
+      "pause_dur_mean": 2.7617
+    },
+    "step3_stroop": {
+      "f0_mean": 111.4214,
+      "f0_std": 56.764,
+      "pitch_instability": 5.0276,
+      "speech_rate_syllables_per_sec": 2.6667,
+      "intensity_mean_db": -28.2514,
+      "hnr_mean": 11.9028,
+      "utterance_dur_total": 22.11,
+      "pause_dur_mean": 0.6084
+    },
+    "step4_negative_event": {
+      "f0_mean": 136.9361,
+      "f0_std": 61.0507,
+      "pitch_instability": 5.5966,
+      "speech_rate_syllables_per_sec": 2.9134,
+      "intensity_mean_db": -27.6819,
+      "hnr_mean": 10.4544,
+      "utterance_dur_total": 37.23,
+      "pause_dur_mean": 0.6196
+    },
+    "step7_positive_reading": {
+      "f0_mean": 172.1565,
+      "f0_std": 57.6551,
+      "pitch_instability": 7.4724,
+      "speech_rate_syllables_per_sec": 3.173,
+      "intensity_mean_db": -28.3047,
+      "hnr_mean": 10.896,
+      "utterance_dur_total": 49.86,
+      "pause_dur_mean": 0.4496
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776870204627-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776870205116-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776870205513-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776870205938-checkin-2-reading.wav"
+  }
+}

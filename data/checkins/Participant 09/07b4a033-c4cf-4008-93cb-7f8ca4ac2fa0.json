@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 09",
+  "checkin_id": "07b4a033-c4cf-4008-93cb-7f8ca4ac2fa0",
+  "timestamp": "2026-04-25 19:35:31.603+00",
+  "self_reports": {
+    "step1_baseline": 2,
+    "step5a_after_stroop": 2,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.25,
+    "S5_peak": 0.25,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.327287337080472,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.10808483138680458
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.13357726112008095
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.17096120491623878
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.13791202753782272
+    ]
+  ],
+  "risk_score": 0.4136,
+  "risk_tier": "Low",
+  "discordance": {
+    "discordance_baseline": -0.3198,
+    "discordance_peak": -0.3277,
+    "discordance_postrelax": -0.2209,
+    "discordance_peak_abs": 0.3277,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5698018094368329,
+    "step3_stroop": 0.5857291400563167,
+    "step4_negative_event": 0.5697547280396533,
+    "step7_positive_reading": 0.4708678045525989
+  },
+  "transcript_step2": "The highlight of my day was I went to Fleetmont Park in the morning, it was pretty nice, we had a kind of a picnic, kind of thing at some vehicles, played some games, yeah, pretty good.   Yeah, playing games, we played like a few different types of games, that was pretty good. working on my deep learning project.",
+  "transcript_step4": "Probably my deep learning project, let's do in a week, so not sure about how well it's  going to end up.  Let's just say the like results that we get, the accuracy we get in your model is not as  as good as we expected to be and the insights that we get it does not align with you know  what is conventional it says something new that I am working on and the outcomes are uncertain  And it's a group project.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 148.8599,
+      "f0_std": 50.5288,
+      "pitch_instability": 5.5852,
+      "speech_rate_syllables_per_sec": 1.2883,
+      "intensity_mean_db": -27.6032,
+      "hnr_mean": 11.3212,
+      "utterance_dur_total": 15.86,
+      "pause_dur_mean": 1.509
+    },
+    "step3_stroop": {
+      "f0_mean": 145.5838,
+      "f0_std": 20.5344,
+      "pitch_instability": 3.273,
+      "speech_rate_syllables_per_sec": 1.0458,
+      "intensity_mean_db": -28.257,
+      "hnr_mean": 10.9463,
+      "utterance_dur_total": 9.38,
+      "pause_dur_mean": 1.9125
+    },
+    "step4_negative_event": {
+      "f0_mean": 141.3577,
+      "f0_std": 26.6703,
+      "pitch_instability": 3.1165,
+      "speech_rate_syllables_per_sec": 1.4513,
+      "intensity_mean_db": -27.6838,
+      "hnr_mean": 11.7491,
+      "utterance_dur_total": 21.94,
+      "pause_dur_mean": 1.4524
+    },
+    "step7_positive_reading": {
+      "f0_mean": 138.011,
+      "f0_std": 19.3593,
+      "pitch_instability": 2.867,
+      "speech_rate_syllables_per_sec": 2.9361,
+      "intensity_mean_db": -30.2984,
+      "hnr_mean": 8.7755,
+      "utterance_dur_total": 40.92,
+      "pause_dur_mean": 0.5433
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777145727598-checkin-3-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777145728738-checkin-3-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777145729984-checkin-3-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777145730962-checkin-3-reading.wav"
+  }
+}

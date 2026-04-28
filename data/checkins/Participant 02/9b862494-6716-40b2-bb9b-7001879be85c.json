@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 02",
+  "checkin_id": "9b862494-6716-40b2-bb9b-7001879be85c",
+  "timestamp": "2026-04-21 06:35:50.667+00",
+  "self_reports": {
+    "step1_baseline": 1,
+    "step5a_after_stroop": 2,
+    "step5b_after_negative": 1,
+    "step8_post_relax": 1
+  },
+  "stress_curve": {
+    "S1_baseline": 0.0,
+    "S5_peak": 0.125,
+    "S8_post_relax": 0.0
+  },
+  "reactivity": 0.125,
+  "recovery": 0.125,
+  "semantic_score": 0.3260115216253325,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.12451045587658882
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.19233990460634232
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.17348230630159378
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.12122571468353271
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.5749,
+    "discordance_peak": -0.4507,
+    "discordance_postrelax": -0.4723,
+    "discordance_peak_abs": 0.4507,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5749115586285457,
+    "step3_stroop": 0.5850810378870095,
+    "step4_negative_event": 0.5662383117470186,
+    "step7_positive_reading": 0.47229279997362306
+  },
+  "transcript_step2": "A highlight of my day was that I saw my friends from my undergrad because I returned to my  home country and I had so many to discuss with them and it was really good.  Yes, again, it was the fact that I saw my family and we discussed a lot because we had  to discuss a lot of time.",
+  "transcript_step4": "Some tasks that are approaching deadline are some group projects that I have  from my university because I'm doing my masters. They are in three weeks or so.  The work required to finish them is to complete a final report and improve  our results. We already have the baseline and some more the models that we will use and now what  we are trying to do is to improve those models and make the results even better so we can present them.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 113.1356,
+      "f0_std": 31.1741,
+      "pitch_instability": 2.2002,
+      "speech_rate_syllables_per_sec": 1.0966,
+      "intensity_mean_db": -26.7618,
+      "hnr_mean": 14.4605,
+      "utterance_dur_total": 22.05,
+      "pause_dur_mean": 1.3144
+    },
+    "step3_stroop": {
+      "f0_mean": 102.8239,
+      "f0_std": 27.9436,
+      "pitch_instability": 3.792,
+      "speech_rate_syllables_per_sec": 1.0224,
+      "intensity_mean_db": -24.8457,
+      "hnr_mean": 8.7045,
+      "utterance_dur_total": 10.1,
+      "pause_dur_mean": 0.8595
+    },
+    "step4_negative_event": {
+      "f0_mean": 112.895,
+      "f0_std": 43.1761,
+      "pitch_instability": 3.8237,
+      "speech_rate_syllables_per_sec": 1.5037,
+      "intensity_mean_db": -29.253,
+      "hnr_mean": 13.4433,
+      "utterance_dur_total": 29.24,
+      "pause_dur_mean": 0.9164
+    },
+    "step7_positive_reading": {
+      "f0_mean": 103.2945,
+      "f0_std": 32.7361,
+      "pitch_instability": 3.522,
+      "speech_rate_syllables_per_sec": 2.4704,
+      "intensity_mean_db": -27.5774,
+      "hnr_mean": 11.7161,
+      "utterance_dur_total": 51.44,
+      "pause_dur_mean": 0.4627
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776753341081-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776753344263-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776753346831-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776753350274-checkin-1-reading.wav"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 17",
+  "checkin_id": "bffde654-fb1a-4867-b5d7-785fbc871e13",
+  "timestamp": "2026-04-15 17:40:15.824+00",
+  "self_reports": {
+    "step1_baseline": 4,
+    "step5a_after_stroop": 5,
+    "step5b_after_negative": 4,
+    "step8_post_relax": 4
+  },
+  "stress_curve": {
+    "S1_baseline": 0.75,
+    "S5_peak": 0.875,
+    "S8_post_relax": 0.75
+  },
+  "reactivity": 0.125,
+  "recovery": 0.125,
+  "semantic_score": 0.33508240071435763,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.14175522699952126
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.1321300007402897
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.1684822514653206
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.12457247450947762
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": 0.2059,
+    "discordance_peak": 0.3089,
+    "discordance_postrelax": 0.288,
+    "discordance_peak_abs": 0.3089,
+    "discordance_flag": true,
+    "discordance_direction": "over"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5440590466722753,
+    "step3_stroop": 0.5723763423244711,
+    "step4_negative_event": 0.5597968909679661,
+    "step7_positive_reading": 0.46198308488840456
+  },
+  "transcript_step2": "Today's highlight was that one of my classes actually ended today and that that class starts at 9.30 a.m.  So now I don't have to wake up early on Mondays and Wednesdays until next semester.  So I think that's great.  The professor made some jokes during the class, so it was fun.",
+  "transcript_step4": "I have an interview at 4.30 so that's kind of approaching right now and also for  our data fun. We have to present next Tuesday so we have to get like the  recordings done and also the presentation slides done. So yeah.  that's it. For the interview, I have to prep. Also, for the data thought, I have  to practice speaking, also work on some of the slides. That's it.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 99.262,
+      "f0_std": 59.1365,
+      "pitch_instability": 4.7026,
+      "speech_rate_syllables_per_sec": 3.3958,
+      "intensity_mean_db": -29.7684,
+      "hnr_mean": 9.9264,
+      "utterance_dur_total": 29.32,
+      "pause_dur_mean": 0.7708
+    },
+    "step3_stroop": {
+      "f0_mean": 134.3407,
+      "f0_std": 57.4538,
+      "pitch_instability": 4.9069,
+      "speech_rate_syllables_per_sec": 1.8222,
+      "intensity_mean_db": -26.7233,
+      "hnr_mean": 13.1373,
+      "utterance_dur_total": 18.71,
+      "pause_dur_mean": 0.639
+    },
+    "step4_negative_event": {
+      "f0_mean": 122.6707,
+      "f0_std": 58.1462,
+      "pitch_instability": 4.2241,
+      "speech_rate_syllables_per_sec": 1.9713,
+      "intensity_mean_db": -25.6267,
+      "hnr_mean": 11.8632,
+      "utterance_dur_total": 31.89,
+      "pause_dur_mean": 0.8953
+    },
+    "step7_positive_reading": {
+      "f0_mean": 160.9007,
+      "f0_std": 60.2599,
+      "pitch_instability": 6.2939,
+      "speech_rate_syllables_per_sec": 3.0642,
+      "intensity_mean_db": -27.0443,
+      "hnr_mean": 11.0881,
+      "utterance_dur_total": 51.16,
+      "pause_dur_mean": 0.4648
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776274814242-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776274814665-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776274815052-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776274815509-checkin-1-reading.wav"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "participant_id": "Participant 03",
+  "checkin_id": "95f17c4c-fd55-4e65-8f4d-659784030a9c",
+  "timestamp": "2026-04-21 20:56:34.439+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 5,
+    "step5b_after_negative": 5,
+    "step8_post_relax": 5
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 1.0,
+    "S8_post_relax": 1.0
+  },
+  "reactivity": 0.5,
+  "recovery": 0.0,
+  "semantic_score": 0.26379708706711724,
+  "top_risk_features": [
+    [
+      "avg_positive_affect_score",
+      0.12563614547252655
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.10803388059139252
+    ],
+    [
+      "proportion_negative_sentences",
+      0.5
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.14170247316360474
+    ],
+    [
+      "avg_catastrophic_thinking_score",
+      0.10006990283727646
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.0793,
+    "discordance_peak": 0.4292,
+    "discordance_postrelax": 0.4927,
+    "discordance_peak_abs": 0.4292,
+    "discordance_flag": true,
+    "discordance_direction": "over"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5793112203754591,
+    "step3_stroop": 0.5810667319405896,
+    "step4_negative_event": 0.5606228466468178,
+    "step7_positive_reading": 0.5072888729210249
+  },
+  "transcript_step2": "Thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, thank you, Oh, man, that is good, yeah, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is good, that is",
+  "transcript_step4": "Yes.  Ah.  Ah.  It's bigger.  Yeah.  Yeah.  Yeah.  Yeah.  Yeah.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 233.8222,
+      "f0_std": 83.5073,
+      "pitch_instability": 8.359,
+      "speech_rate_syllables_per_sec": 0.4183,
+      "intensity_mean_db": -33.3407,
+      "hnr_mean": 6.6094,
+      "utterance_dur_total": 2.15,
+      "pause_dur_mean": 5.9814
+    },
+    "step3_stroop": {
+      "f0_mean": 168.0425,
+      "f0_std": 85.2152,
+      "pitch_instability": 13.4785,
+      "speech_rate_syllables_per_sec": 0.3788,
+      "intensity_mean_db": -35.4996,
+      "hnr_mean": 4.5581,
+      "utterance_dur_total": 2.02,
+      "pause_dur_mean": 5.7367
+    },
+    "step4_negative_event": {
+      "f0_mean": 256.5387,
+      "f0_std": 97.1229,
+      "pitch_instability": 21.4304,
+      "speech_rate_syllables_per_sec": 0.5298,
+      "intensity_mean_db": -36.4226,
+      "hnr_mean": 4.0473,
+      "utterance_dur_total": 0.24,
+      "pause_dur_mean": 19.02
+    },
+    "step7_positive_reading": {
+      "speech_rate_syllables_per_sec": 0.0,
+      "intensity_mean_db": -82.766,
+      "hnr_mean": -0.6256
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776804991334-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776804991876-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776804992342-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776804992745-checkin-2-reading.wav"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 07",
+  "checkin_id": "d7c62b6c-aec3-4021-9096-28a0e05880bd",
+  "timestamp": "2026-04-14 22:59:01.373+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 3
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.5,
+    "S8_post_relax": 0.5
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.34414491502878564,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.1592065915465355
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.14018361270427704
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.15406109392642975
+    ],
+    [
+      "avg_self_blame_score",
+      0.16510090231895447
+    ]
+  ],
+  "risk_score": 0.4221,
+  "risk_tier": "Low",
+  "discordance": {
+    "discordance_baseline": -0.0879,
+    "discordance_peak": -0.0892,
+    "discordance_postrelax": -0.0127,
+    "discordance_peak_abs": 0.0892,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5878569174105134,
+    "step3_stroop": 0.5894344156093502,
+    "step4_negative_event": 0.5888715562714101,
+    "step7_positive_reading": 0.5126736322508492
+  },
+  "transcript_step2": "Let's check in 3 bass line.  Thank you very much for your time, thank you very much, thank you very much, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you very much for your time, thank you",
+  "transcript_step4": "Check in to be testStruperStress.  I don't know if you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see me or you're going to see",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 82.0368,
+      "f0_std": 31.2861,
+      "pitch_instability": 4.1882,
+      "speech_rate_syllables_per_sec": 0.1747,
+      "intensity_mean_db": -25.4883,
+      "hnr_mean": 9.0139,
+      "utterance_dur_total": 1.72,
+      "pause_dur_mean": 0.0
+    },
+    "step3_stroop": {
+      "f0_mean": 122.7472,
+      "f0_std": 59.2494,
+      "pitch_instability": 7.3554,
+      "speech_rate_syllables_per_sec": 0.4,
+      "intensity_mean_db": -31.8424,
+      "hnr_mean": 5.1276,
+      "utterance_dur_total": 1.33,
+      "pause_dur_mean": 0.7
+    },
+    "step4_negative_event": {
+      "f0_mean": 93.3467,
+      "f0_std": 18.9583,
+      "pitch_instability": 3.0436,
+      "speech_rate_syllables_per_sec": 0.1953,
+      "intensity_mean_db": -25.2869,
+      "hnr_mean": 7.3862,
+      "utterance_dur_total": 2.95,
+      "pause_dur_mean": 0.7067
+    },
+    "step7_positive_reading": {
+      "f0_mean": 103.5122,
+      "f0_std": 7.9328,
+      "pitch_instability": 1.3483,
+      "speech_rate_syllables_per_sec": 0.3145,
+      "intensity_mean_db": -26.5874,
+      "hnr_mean": 8.993,
+      "utterance_dur_total": 1.19,
+      "pause_dur_mean": 7.84
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776207545992-final10-checkin-3-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776207546156-final10-checkin-3-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776207546357-final10-checkin-3-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776207546533-final10-checkin-3-reading.wav"
+  }
+}

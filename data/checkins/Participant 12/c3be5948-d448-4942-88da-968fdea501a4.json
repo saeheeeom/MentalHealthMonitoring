@@ -1,0 +1,100 @@
+{
+  "participant_id": "Participant 12",
+  "checkin_id": "c3be5948-d448-4942-88da-968fdea501a4",
+  "timestamp": "2026-04-17 17:42:26.742+00",
+  "self_reports": {
+    "step1_baseline": 3,
+    "step5a_after_stroop": 3,
+    "step5b_after_negative": 3,
+    "step8_post_relax": 5
+  },
+  "stress_curve": {
+    "S1_baseline": 0.5,
+    "S5_peak": 0.5,
+    "S8_post_relax": 1.0
+  },
+  "reactivity": 0.0,
+  "recovery": -0.5,
+  "semantic_score": 0.3236122331157195,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.16574861109256744
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.11835895478725433
+    ],
+    [
+      "avg_self_blame_score",
+      0.14423272013664246
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.12342236191034317
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.0806,
+    "discordance_peak": -0.0643,
+    "discordance_postrelax": 0.4927,
+    "discordance_peak_abs": 0.0643,
+    "discordance_flag": false,
+    "discordance_direction": null
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5805566341380477,
+    "step3_stroop": 0.592117050496464,
+    "step4_negative_event": 0.5364254024048314,
+    "step7_positive_reading": 0.5072888729210249
+  },
+  "transcript_step2": "Thank you very much.  Thank you very much.  Thank you very much.",
+  "transcript_step4": "and on how to create an Excel sheet using Chat GPT.  Step one, start by telling Chat GPT exactly what you need.  For example, you can say, create a simple Excel sheet  for tracking monthly expenses.  Step two, to be more specific,  mention all columns that you need,  like date, description, amount, and category.  Step three, you can also ask Chat GPT  to provide some sample data in your Excel file.  Step 4, review and edit the code.  Chat GPT will provide you with a table,  and it will generate the Excel formulas that you need.  Step 5, generate the Excel file.  Click on the download link in your dialog box  to download the file to your computer.  Step 6, open the file to see the generated table.  You'll instantly see the structure with the headers  that you requested, and if you request in some sample data,  The rows will be filled with the sample data that you asked.  Step 7.  Customize is needed.  From here, easily modify the sheet by adding more rows,  adjusting columns, and entering your own data.  And that's it.  It just a few steps.  Chat GPT helps you build an Excel sheet,  saving you time and effort.  If you'd like to learn more how Chat GPT can save you time and effort,  then please sign up for one of my online courses.  so you can learn from me at your own pace.  Thank you very much for your time, and I'll see you in the next video, bye-bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye,",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 183.538,
+      "f0_std": 46.4583,
+      "pitch_instability": 9.5181,
+      "speech_rate_syllables_per_sec": 0.2115,
+      "intensity_mean_db": -33.3378,
+      "hnr_mean": 7.4798,
+      "utterance_dur_total": 0.11,
+      "pause_dur_mean": 0.0
+    },
+    "step3_stroop": {
+      "f0_mean": 127.1417,
+      "f0_std": 8.3133,
+      "pitch_instability": 5.0924,
+      "speech_rate_syllables_per_sec": 0.0223,
+      "intensity_mean_db": -101.5915,
+      "hnr_mean": 5.6908
+    },
+    "step4_negative_event": {
+      "f0_mean": 184.6384,
+      "f0_std": 81.9384,
+      "pitch_instability": 13.377,
+      "speech_rate_syllables_per_sec": 2.5706,
+      "intensity_mean_db": -30.6476,
+      "hnr_mean": 8.2144,
+      "utterance_dur_total": 47.33,
+      "pause_dur_mean": 0.5146
+    },
+    "step7_positive_reading": {
+      "speech_rate_syllables_per_sec": 0.0,
+      "intensity_mean_db": -81.7697,
+      "hnr_mean": 4.2903
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776447742037-checkin-1-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776447742955-checkin-1-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776447743618-checkin-1-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776447743974-checkin-1-reading.wav"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 14",
+  "checkin_id": "53223859-6b74-4515-b813-70492ea4408e",
+  "timestamp": "2026-04-24 03:34:18.552+00",
+  "self_reports": {
+    "step1_baseline": 2,
+    "step5a_after_stroop": 2,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.25,
+    "S5_peak": 0.25,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.3447367881786906,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.17209452390670776
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.1472596414387226
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.17802893370389938
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.15284526348114014
+    ]
+  ],
+  "risk_score": 0.4224,
+  "risk_tier": "Low",
+  "discordance": {
+    "discordance_baseline": -0.3287,
+    "discordance_peak": -0.3314,
+    "discordance_postrelax": -0.2357,
+    "discordance_peak_abs": 0.3314,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5787249590586667,
+    "step3_stroop": 0.5909962791044145,
+    "step4_negative_event": 0.571852671930485,
+    "step7_positive_reading": 0.48571553744629126
+  },
+  "transcript_step2": "Getting my drivers for it was the highlight of my day.  It's something I've been meaning to complete since I first came here six years ago.  So finally getting it done felt like a big personal milestone.  It represents progress and checking off a long pending goal that I've been working towards.  So I'm looking forward to the end of the semester.",
+  "transcript_step4": "The end of my lease, then the current housing lease is coming up soon and the reason I feel uncertain is because I don't have anything planned for, I don't have housing planned for after the deadline.  So that's one thing.  So one is that I won't be able to find a reasonably priced place to stay, another is getting  stuck with a place that isn't great.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 111.546,
+      "f0_std": 31.2751,
+      "pitch_instability": 2.8769,
+      "speech_rate_syllables_per_sec": 0.8398,
+      "intensity_mean_db": -19.7636,
+      "hnr_mean": 12.6665,
+      "utterance_dur_total": 14.99,
+      "pause_dur_mean": 3.2743
+    },
+    "step3_stroop": {
+      "f0_mean": 116.7143,
+      "f0_std": 26.4053,
+      "pitch_instability": 3.3871,
+      "speech_rate_syllables_per_sec": 0.5824,
+      "intensity_mean_db": -22.9459,
+      "hnr_mean": 13.2618,
+      "utterance_dur_total": 8.29,
+      "pause_dur_mean": 2.4171
+    },
+    "step4_negative_event": {
+      "f0_mean": 114.3668,
+      "f0_std": 41.3954,
+      "pitch_instability": 5.0379,
+      "speech_rate_syllables_per_sec": 1.0874,
+      "intensity_mean_db": -21.1821,
+      "hnr_mean": 12.7277,
+      "utterance_dur_total": 19.3,
+      "pause_dur_mean": 1.6246
+    },
+    "step7_positive_reading": {
+      "f0_mean": 109.6515,
+      "f0_std": 22.528,
+      "pitch_instability": 2.4312,
+      "speech_rate_syllables_per_sec": 1.5648,
+      "intensity_mean_db": -21.2011,
+      "hnr_mean": 13.2014,
+      "utterance_dur_total": 44.39,
+      "pause_dur_mean": 0.7977
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777001656998-checkin-3-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777001657465-checkin-3-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777001657786-checkin-3-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777001658270-checkin-3-reading.wav"
+  }
+}

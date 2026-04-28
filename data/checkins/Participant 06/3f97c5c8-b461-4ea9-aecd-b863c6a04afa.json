@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 06",
+  "checkin_id": "3f97c5c8-b461-4ea9-aecd-b863c6a04afa",
+  "timestamp": "2026-04-21 01:46:37.309+00",
+  "self_reports": {
+    "step1_baseline": 2,
+    "step5a_after_stroop": 1,
+    "step5b_after_negative": 1,
+    "step8_post_relax": 1
+  },
+  "stress_curve": {
+    "S1_baseline": 0.25,
+    "S5_peak": 0.0,
+    "S8_post_relax": 0.0
+  },
+  "reactivity": -0.25,
+  "recovery": 0.0,
+  "semantic_score": 0.36071719097575017,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.18599169701337814
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.17286692559719086
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.2300052046775818
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.2249397486448288
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.2959,
+    "discordance_peak": -0.5673,
+    "discordance_postrelax": -0.4642,
+    "discordance_peak_abs": 0.5673,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5458780269260377,
+    "step3_stroop": 0.57968605439846,
+    "step4_negative_event": 0.5548928261929827,
+    "step7_positive_reading": 0.4642249623002559
+  },
+  "transcript_step2": "I had a Bayesian project presentation today, it was something that I had been very anxious  about because Bayesian is something that I had been struggling with, I put in some  quite a bit of time into the project, but I had other things to do this on my mind this  week as well, so I did a presentation today, it went really well.  I think delivering the presentation is watching people  being across my presentation and mainstructors saying,  good job, and being able to answer everyone's questions.  I think that made me feel very accomplished  that I had met the objectives set out by the task.",
+  "transcript_step4": "So I have a good friend who is struggling to find an internship and so I have a conversation  over the past few days where he's very stressed, a friend who helped him, trying to work  through what he can do, what's a good call to action, trying to comfort him, so that's  not very nice.  I mean, it's nice to be there for a friend, but it's not very nice when your friend is  not very happy with how things are.  And so there's something that did not go well, I guess.  I don't think I have anything else to say.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 121.0446,
+      "f0_std": 63.0948,
+      "pitch_instability": 6.9939,
+      "speech_rate_syllables_per_sec": 2.9585,
+      "intensity_mean_db": -28.6536,
+      "hnr_mean": 8.0798,
+      "utterance_dur_total": 28.85,
+      "pause_dur_mean": 0.655
+    },
+    "step3_stroop": {
+      "f0_mean": 125.678,
+      "f0_std": 53.4049,
+      "pitch_instability": 3.6975,
+      "speech_rate_syllables_per_sec": 1.2976,
+      "intensity_mean_db": -24.3345,
+      "hnr_mean": 18.0943,
+      "utterance_dur_total": 19.31,
+      "pause_dur_mean": 0.5612
+    },
+    "step4_negative_event": {
+      "f0_mean": 127.907,
+      "f0_std": 79.7636,
+      "pitch_instability": 6.9925,
+      "speech_rate_syllables_per_sec": 2.2594,
+      "intensity_mean_db": -28.775,
+      "hnr_mean": 10.1984,
+      "utterance_dur_total": 24.12,
+      "pause_dur_mean": 0.8009
+    },
+    "step7_positive_reading": {
+      "f0_mean": 137.9824,
+      "f0_std": 47.6336,
+      "pitch_instability": 5.4381,
+      "speech_rate_syllables_per_sec": 3.1972,
+      "intensity_mean_db": -28.6206,
+      "hnr_mean": 10.9972,
+      "utterance_dur_total": 41.73,
+      "pause_dur_mean": 0.4305
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776735995971-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776735996332-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776735996683-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776735997055-checkin-2-reading.wav"
+  }
+}

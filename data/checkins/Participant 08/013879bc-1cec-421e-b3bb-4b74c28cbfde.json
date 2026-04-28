@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 08",
+  "checkin_id": "013879bc-1cec-421e-b3bb-4b74c28cbfde",
+  "timestamp": "2026-04-27 01:29:19.038+00",
+  "self_reports": {
+    "step1_baseline": 2,
+    "step5a_after_stroop": 2,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 2
+  },
+  "stress_curve": {
+    "S1_baseline": 0.25,
+    "S5_peak": 0.25,
+    "S8_post_relax": 0.25
+  },
+  "reactivity": 0.0,
+  "recovery": 0.0,
+  "semantic_score": 0.3505573674105107,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.1604120433330536
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.20053952187299728
+    ],
+    [
+      "avg_self_blame_score",
+      0.1876048967242241
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.14107073843479156
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.3278,
+    "discordance_peak": -0.3311,
+    "discordance_postrelax": -0.2302,
+    "discordance_peak_abs": 0.3311,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5778248231679093,
+    "step3_stroop": 0.5848471315592919,
+    "step4_negative_event": 0.5772602528295839,
+    "step7_positive_reading": 0.4802489164089243
+  },
+  "transcript_step2": "So I finished all the homework for this semester, so I can focus on heading back to Korea.  Um, um, running in the morning. Maybe she'll good.   I think back to Korea and see my life, because it's really important for both of us. It's finished you a job in time, just done.  Yeah, I don't know what contributed to that.",
+  "transcript_step4": "Ah, compensation with my advisor didn't really go well, didn't help much.  Nothing much.  It was this lack of knowledge in the area that I needed help on.  Well, I pay for that service, and I spend time talking to that individual, so.  Did I?  Thank you very much for joining us today.",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 115.9853,
+      "f0_std": 34.2694,
+      "pitch_instability": 2.9769,
+      "speech_rate_syllables_per_sec": 0.9549,
+      "intensity_mean_db": -26.9843,
+      "hnr_mean": 9.9519,
+      "utterance_dur_total": 13.09,
+      "pause_dur_mean": 2.1013
+    },
+    "step3_stroop": {
+      "f0_mean": 107.603,
+      "f0_std": 7.12,
+      "pitch_instability": 0.9148,
+      "speech_rate_syllables_per_sec": 1.0444,
+      "intensity_mean_db": -25.5854,
+      "hnr_mean": 13.8619,
+      "utterance_dur_total": 24.76,
+      "pause_dur_mean": 0.556
+    },
+    "step4_negative_event": {
+      "f0_mean": 117.9872,
+      "f0_std": 45.257,
+      "pitch_instability": 3.9089,
+      "speech_rate_syllables_per_sec": 0.876,
+      "intensity_mean_db": -29.4323,
+      "hnr_mean": 9.1535,
+      "utterance_dur_total": 13.67,
+      "pause_dur_mean": 4.0343
+    },
+    "step7_positive_reading": {
+      "f0_mean": 114.4306,
+      "f0_std": 24.4556,
+      "pitch_instability": 2.2886,
+      "speech_rate_syllables_per_sec": 2.1081,
+      "intensity_mean_db": -27.43,
+      "hnr_mean": 10.3822,
+      "utterance_dur_total": 43.08,
+      "pause_dur_mean": 0.4792
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777253357597-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777253358036-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777253358383-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1777253358819-checkin-2-reading.wav"
+  }
+}

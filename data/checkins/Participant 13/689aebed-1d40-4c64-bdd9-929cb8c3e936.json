@@ -1,0 +1,107 @@
+{
+  "participant_id": "Participant 13",
+  "checkin_id": "689aebed-1d40-4c64-bdd9-929cb8c3e936",
+  "timestamp": "2026-04-18 03:23:09.484+00",
+  "self_reports": {
+    "step1_baseline": 2,
+    "step5a_after_stroop": 2,
+    "step5b_after_negative": 2,
+    "step8_post_relax": 1
+  },
+  "stress_curve": {
+    "S1_baseline": 0.25,
+    "S5_peak": 0.25,
+    "S8_post_relax": 0.0
+  },
+  "reactivity": 0.0,
+  "recovery": 0.25,
+  "semantic_score": 0.3421701123575783,
+  "top_risk_features": [
+    [
+      "proportion_negative_sentences",
+      1.0
+    ],
+    [
+      "avg_positive_affect_score",
+      0.17011404782533646
+    ],
+    [
+      "avg_social_connectedness_score",
+      0.18177300319075584
+    ],
+    [
+      "avg_cognitive_distortion_score",
+      0.16910437494516373
+    ],
+    [
+      "avg_stress_or_anxiety_score",
+      0.17022448405623436
+    ]
+  ],
+  "risk_score": null,
+  "risk_tier": null,
+  "discordance": {
+    "discordance_baseline": -0.3153,
+    "discordance_peak": -0.3273,
+    "discordance_postrelax": -0.4727,
+    "discordance_peak_abs": 0.3273,
+    "discordance_flag": true,
+    "discordance_direction": "under"
+  },
+  "acoustic_scores": {
+    "step2_daily_narration": 0.5653118682998821,
+    "step3_stroop": 0.5843819652687965,
+    "step4_negative_event": 0.5702162436434003,
+    "step7_positive_reading": 0.47267000554881805
+  },
+  "transcript_step2": "I went to hang out with my friends today and I had to know with them.  Just me being with my friends was it made me feel good and smile and it was fun hanging  out with them.  I'm looking forward to getting my work done for the weekend so I can relax when it's done.  What does it mean that you were spending today, because you did that?  Oh, the results said a meeting today went better than expected, because I finished the look.",
+  "transcript_step4": "I don't have a conversation with a friend about what he's going to be doing with his  hands for some and he didn't really give me a proper answer and I wanted a proper answer.  What could you have done for me?  I've been asked him what his plans are in a better way I guess.  Oh, it affects me because it's annoying if I don't get an answer that I asked for property.  Yeah, that's right.  Thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very much for joining us today, thank you very",
+  "acoustic_summary": {
+    "step2_daily_narration": {
+      "f0_mean": 114.2769,
+      "f0_std": 43.7783,
+      "pitch_instability": 4.1046,
+      "speech_rate_syllables_per_sec": 1.7583,
+      "intensity_mean_db": -26.3805,
+      "hnr_mean": 6.3567,
+      "utterance_dur_total": 20.77,
+      "pause_dur_mean": 1.3237
+    },
+    "step3_stroop": {
+      "f0_mean": 109.6396,
+      "f0_std": 20.9257,
+      "pitch_instability": 2.8121,
+      "speech_rate_syllables_per_sec": 1.1229,
+      "intensity_mean_db": -25.9102,
+      "hnr_mean": 8.7834,
+      "utterance_dur_total": 13.57,
+      "pause_dur_mean": 0.6836
+    },
+    "step4_negative_event": {
+      "f0_mean": 107.3737,
+      "f0_std": 28.7177,
+      "pitch_instability": 2.4607,
+      "speech_rate_syllables_per_sec": 1.5134,
+      "intensity_mean_db": -27.3527,
+      "hnr_mean": 7.5271,
+      "utterance_dur_total": 21.02,
+      "pause_dur_mean": 1.306
+    },
+    "step7_positive_reading": {
+      "f0_mean": 103.0405,
+      "f0_std": 17.7658,
+      "pitch_instability": 2.4378,
+      "speech_rate_syllables_per_sec": 2.8427,
+      "intensity_mean_db": -27.4098,
+      "hnr_mean": 7.1093,
+      "utterance_dur_total": 40.26,
+      "pause_dur_mean": 0.4308
+    }
+  },
+  "audio_urls": {
+    "step2_daily_narration": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776482588315-checkin-2-baseline.wav",
+    "step3_stroop": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776482588767-checkin-2-stroop.wav",
+    "step4_negative_event": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776482589136-checkin-2-deadline.wav",
+    "step7_positive_reading": "https://mental-health-checkins.s3.us-east-2.amazonaws.com/checkins/1776482589543-checkin-2-reading.wav"
+  }
+}
