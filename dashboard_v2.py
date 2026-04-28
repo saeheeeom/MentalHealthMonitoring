@@ -843,22 +843,38 @@ def render_checkin_details(checkins: list[dict], df: pd.DataFrame) -> None:
 
     st.markdown('<hr class="divider">', unsafe_allow_html=True)
 
-    # ── Transcripts ────────────────────────────────────────────────────────────
+    # ── Transcript summaries ───────────────────────────────────────────────────
+    def _summarize(text: str, max_sentences: int = 3) -> str:
+        """Return first max_sentences sentences of text, trimmed to ~120 words."""
+        if not text:
+            return ""
+        # Split on sentence-ending punctuation
+        import re
+        sentences = re.split(r'(?<=[.!?])\s+', text.strip())
+        summary = " ".join(sentences[:max_sentences])
+        # Hard cap at 120 words
+        words = summary.split()
+        if len(words) > 120:
+            summary = " ".join(words[:120]) + "…"
+        return summary
+
     t2 = c.get("transcript_step2", "") or ""
     t4 = c.get("transcript_step4", "") or ""
 
-    st.markdown('<div class="label">Transcripts</div>', unsafe_allow_html=True)
+    st.markdown('<div class="label">Transcript summaries</div>', unsafe_allow_html=True)
     tc1, tc2 = st.columns(2)
     with tc1:
-        if t2:
-            st.markdown(f'<div class="snippet"><b>Step 2 · Daily narration:</b><br>"{t2}"</div>',
+        summary2 = _summarize(t2)
+        if summary2:
+            st.markdown(f'<div class="snippet"><b>Step 2 · Daily narration</b><br><span style="color:#888;font-size:0.76rem;">First 3 sentences</span><br><br>"{summary2}"</div>',
                         unsafe_allow_html=True)
         else:
             st.markdown('<div class="snippet" style="color:#aaa;">No transcript available.</div>',
                         unsafe_allow_html=True)
     with tc2:
-        if t4:
-            st.markdown(f'<div class="snippet"><b>Step 4 · Negative event:</b><br>"{t4}"</div>',
+        summary4 = _summarize(t4)
+        if summary4:
+            st.markdown(f'<div class="snippet"><b>Step 4 · Negative event</b><br><span style="color:#888;font-size:0.76rem;">First 3 sentences</span><br><br>"{summary4}"</div>',
                         unsafe_allow_html=True)
         else:
             st.markdown('<div class="snippet" style="color:#aaa;">No transcript available.</div>',
